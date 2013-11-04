@@ -1,0 +1,17 @@
+Source	SMT_X9_221.zip
+
+File	SMT_X9_221.bin
+MD5	a2c83a753b4860f552d35a5d965af973
+SHA256	26e61d4346e749166332e3af13e5939b71027761f615e9d95b2c207939075f6a
+
+DECIMAL   	HEX       	DESCRIPTION
+-------------------------------------------------------------------------------------------------------------------
+59700     	0xE934    	Copyright string: " (c) Winbond Limited 2001 - 2006. All rights reserved.6. All rights reserved."
+60835     	0xEDA3    	Copyright string: " 1995-1998 Mark Adler  termination"
+1572864   	0x180000  	CramFS filesystem, little endian size 8163328 version #2 sorted_dirs CRC 0xee69a6f6, edition 0, 5107 blocks, 1057 files  
+9961472   	0x980000  	Zip archive data, at least v2.0 to extract, compressed size: 1124876,  uncompressed size: 2331112, name: "kernel.bin"  
+11086478  	0xA92A8E  	End of Zip archive
+12058624  	0xB80000  	CramFS filesystem, little endian size 2043904 version #2 sorted_dirs CRC 0xeeb88725, edition 0, 997 blocks, 229 files  
+
+
+
