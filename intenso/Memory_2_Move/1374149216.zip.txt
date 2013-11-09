@@ -1,0 +1,16 @@
+Source	http://intenso.de/downloads.php?kategorie=29&&produkt=1357297608
+Model	2,5" Memory 2 Move USB 3.0
+Rev	1.1
+
+File	1374149216.zip
+MD5	8acc9d9bbb8d18d5da2ad6b6a20a043d
+SHA256	c40db00916b7c18daefb7eb02ca5643d17d54bc56d0ad3ab1ef76c37d490fa41
+
+Archive:  1374149216.zip
+  Length      Date    Time    Name
+---------  ---------- -----   ----
+  8377589  2013-07-02 17:16   fw-M2M-1.100.000
+   347055  2013-07-18 16:09   GNU-LGPL_Lizenz.pdf
+---------                     -------
+  8724644                     2 files
+

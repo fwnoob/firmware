@@ -1,0 +1,937 @@
+Source	initrdup
+
+File	firmware/rootfs
+MD5	3bb826bb3ae05d436304243a246839b7
+SHA256	cbd9c000ca1402ad70d6e6724f9d21fee34e205d3a2a4e679af5f97387513b7a
+
+Content of roofs
+.: directory
+./mnt: directory
+./proc: directory
+./etc_ro: directory
+./etc_ro/ppp: directory
+./etc_ro/ppp/ip-up: POSIX shell script, ASCII text executable
+./tmp: directory
+./media: directory
+./lib: directory
+./lib/libuuid.so.1: ASCII text, with no line terminators
+./lib/ld-uClibc-0.9.28.so: ELF 32-bit LSB shared object, MIPS, MIPS-I version 1 (SYSV), dynamically linked, stripped
+./lib/wlan: directory
+./lib/wlan/RT5350_AP_1T1R_V1_0.bin: data
+./lib/libresolv.so: ASCII text, with no line terminators
+./lib/libpcre.so.0: ASCII text, with no line terminators
+./lib/libnvram.so: ASCII text, with no line terminators
+./lib/libc.so: ASCII text, with no line terminators
+./lib/libpcre.so.0.0.1: ELF 32-bit LSB shared object, MIPS, MIPS-II version 1 (SYSV), dynamically linked, stripped
+./lib/libparted.so.1.0.0: ELF 32-bit LSB shared object, MIPS, MIPS-II version 1 (SYSV), dynamically linked, stripped
+./lib/libfuse.so.2.8.6: ELF 32-bit LSB shared object, MIPS, MIPS-II version 1 (SYSV), dynamically linked, stripped
+./lib/libuuid.so: ASCII text, with no line terminators
+./lib/libattr.so.1.1.0: ELF 32-bit LSB shared object, MIPS, MIPS-II version 1 (SYSV), dynamically linked, stripped
+./lib/libfuse.so.2: ASCII text, with no line terminators
+./lib/libutil.so: ASCII text, with no line terminators
+./lib/libiconv.so.2: ASCII text, with no line terminators
+./lib/libpcre.so: ASCII text, with no line terminators
+./lib/ld-uClibc.so.0: ASCII text, with no line terminators
+./lib/libm.so: ASCII text, with no line terminators
+./lib/libdl.so.0: ASCII text, with no line terminators
+./lib/libnvram.so.0: ASCII text, with no line terminators
+./lib/libattr.so: ASCII text, with no line terminators
+./lib/libnsl.so: ASCII text, with no line terminators
+./lib/libresolv-0.9.28.so: ELF 32-bit LSB shared object, MIPS, MIPS-I version 1 (SYSV), dynamically linked (uses shared libs), stripped
+./lib/libpthread-0.9.28.so: ELF 32-bit LSB shared object, MIPS, MIPS-I version 1 (SYSV), dynamically linked (uses shared libs), stripped
+./lib/libiconv.so.2.5.0: ELF 32-bit LSB shared object, MIPS, MIPS-II version 1 (SYSV), dynamically linked, stripped
+./lib/CP850.so: ELF 32-bit LSB shared object, MIPS, MIPS-II version 1 (SYSV), dynamically linked, stripped
+./lib/libdl-0.9.28.so: ELF 32-bit LSB shared object, MIPS, MIPS-I version 1 (SYSV), dynamically linked (uses shared libs), stripped
+./lib/CP437.so: ELF 32-bit LSB shared object, MIPS, MIPS-II version 1 (SYSV), dynamically linked, stripped
+./lib/libparted.so: ASCII text, with no line terminators
+./lib/libm-0.9.28.so: ELF 32-bit LSB shared object, MIPS, MIPS-I version 1 (SYSV), dynamically linked (uses shared libs), stripped
+./lib/ipsec: directory
+./lib/libcrypt.so: ASCII text, with no line terminators
+./lib/libsqlite3.so.0: ELF 32-bit LSB shared object, MIPS, MIPS-II version 1 (SYSV), dynamically linked, stripped
+./lib/libresolv.so.0: ASCII text, with no line terminators
+./lib/libuuid.so.1.2: ELF 32-bit LSB shared object, MIPS, MIPS-II version 1 (SYSV), dynamically linked, stripped
+./lib/libexfat.so: ELF 32-bit LSB shared object, MIPS, MIPS-II version 1 (SYSV), dynamically linked, stripped
+./lib/libnsl.so.0: ASCII text, with no line terminators
+./lib/libm.so.0: ASCII text, with no line terminators
+./lib/libacl.so.1: ASCII text, with no line terminators
+./lib/libiconv.so: ASCII text, with no line terminators
+./lib/libacl.so: ASCII text, with no line terminators
+./lib/libparted.so.1: ASCII text, with no line terminators
+./lib/libnsl-0.9.28.so: ELF 32-bit LSB shared object, MIPS, MIPS-I version 1 (SYSV), dynamically linked (uses shared libs), stripped
+./lib/libiw.so.29: ELF 32-bit LSB shared object, MIPS, MIPS-II version 1 (SYSV), dynamically linked, stripped
+./lib/libpthread.so.0: ASCII text, with no line terminators
+./lib/libthreadutil.so.1.3.1: ELF 32-bit LSB shared object, MIPS, MIPS-I version 1 (SYSV), dynamically linked (uses shared libs), stripped
+./lib/udev: directory
+./lib/udev/rules.d: directory
+./lib/udev/rules.d/60-persistent-storage.rules: ASCII text
+./lib/udev/rules.d/95-udev-late.rules: ASCII text
+./lib/udev/rules.d/60-persistent-input.rules: ASCII text
+./lib/udev/rules.d/50-head.rules: ASCII text
+./lib/udev/rules.d/60-persistent-storage-tape.rules: ASCII text
+./lib/udev/rules.d/80-drivers.rules: ASCII text
+./lib/udev/rules.d/60-persistent-v4l.rules: ASCII text
+./lib/libattr.so.1: ASCII text, with no line terminators
+./lib/libacl.so.1.1.0: ELF 32-bit LSB shared object, MIPS, MIPS-II version 1 (SYSV), dynamically linked, stripped
+./lib/libuClibc-0.9.28.so: ELF 32-bit LSB shared object, MIPS, MIPS-I version 1 (SYSV), dynamically linked (uses shared libs), stripped
+./lib/libutil.so.0: ASCII text, with no line terminators
+./lib/libcrypt-0.9.28.so: ELF 32-bit LSB shared object, MIPS, MIPS-I version 1 (SYSV), dynamically linked (uses shared libs), stripped
+./lib/libproc-3.2.7.so: ELF 32-bit LSB shared object, MIPS, MIPS-II version 1 (SYSV), dynamically linked, stripped
+./lib/modules: directory
+./lib/modules/2.6.21: directory
+./lib/modules/2.6.21/kernel: directory
+./lib/modules/2.6.21/kernel/drivers: directory
+./lib/modules/2.6.21/kernel/drivers/char: directory
+./lib/modules/2.6.21/kernel/drivers/char/hw_random: directory
+./lib/modules/2.6.21/kernel/drivers/char/hw_random/rng-core.ko: ELF 32-bit LSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/2.6.21/kernel/drivers/tuxera: directory
+./lib/modules/2.6.21/kernel/drivers/tuxera/tntfs.ko: ELF 32-bit LSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/libutil-0.9.28.so: ELF 32-bit LSB shared object, MIPS, MIPS-I version 1 (SYSV), dynamically linked (uses shared libs), stripped
+./lib/libfuse.so: ASCII text, with no line terminators
+./lib/libnvram-0.9.28.so: ELF 32-bit LSB shared object, MIPS, MIPS-I version 1 (SYSV), dynamically linked (uses shared libs), stripped
+./lib/libdl.so: ASCII text, with no line terminators
+./lib/libcrypt.so.0: ASCII text, with no line terminators
+./lib/libc.so.0: ASCII text, with no line terminators
+./lib/libpthread.so: ASCII text, with no line terminators
+./data: directory
+./etc: directory
+./etc/initsh: POSIX shell script, ASCII text executable
+./etc/rpcserver.conf: ASCII text
+./etc/localtime: ASCII text, with no line terminators
+./etc/initdisk: POSIX shell script, ASCII text executable
+./etc/timecache: ASCII text
+./etc/init.d: directory
+./etc/init.d/etcbackup: POSIX shell script, ASCII text executable
+./etc/init.d/module: POSIX shell script, ASCII text executable
+./etc/init.d/udhcpc.sh: POSIX shell script, ASCII text executable
+./etc/init.d/swap_rmpoint.sh: POSIX shell script, ASCII text executable
+./etc/init.d/nasclient.sh: POSIX shell script, ASCII text executable
+./etc/init.d/usbled: ASCII text
+./etc/init.d/stop_all.sh: POSIX shell script, ASCII text executable
+./etc/init.d/fileserv.sh: POSIX shell script, ASCII text executable
+./etc/init.d/resumeorg: POSIX shell script, ASCII text executable
+./etc/init.d/disktag: ASCII text
+./etc/init.d/diskumount: POSIX shell script, ASCII text executable
+./etc/init.d/ddns.sh: POSIX shell script, ASCII text executable
+./etc/init.d/serverdev.sh: POSIX shell script, ASCII text executable
+./etc/init.d/smb.sh: POSIX shell script, ASCII text executable
+./etc/init.d/upnpc.sh: POSIX shell script, ASCII text executable
+./etc/init.d/etcsync: POSIX shell script, ASCII text executable
+./etc/init.d/minidlna.sh: POSIX shell script, ASCII text executable
+./etc/init.d/start_all.sh: POSIX shell script, ASCII text executable
+./etc/init.d/vstfunc: POSIX shell script, ASCII text executable
+./etc/init.d/service: POSIX shell script, ASCII text executable
+./etc/init.d/swap_addr.sh: POSIX shell script, ASCII text executable
+./etc/init.d/timezone: ASCII text
+./etc/init.d/netmonitor.sh: POSIX shell script, ASCII text executable
+./etc/init.d/udev: POSIX shell script, ASCII text executable
+./etc/init.d/diskmount: POSIX shell script, ASCII text executable
+./etc/init.d/web: POSIX shell script, ASCII text executable
+./etc/init.d/ntp.sh: POSIX shell script, ASCII text executable
+./etc/init.d/upnpd.sh: POSIX shell script, ASCII text executable
+./etc/init.d/ntpclient.sh: POSIX shell script, ASCII text executable
+./etc/init.d/swap: POSIX shell script, ASCII text executable
+./etc/init.d/disk_sleep_control.sh: POSIX shell script, ASCII text executable
+./etc/init.d/usbumount: POSIX shell script, ASCII text executable
+./etc/init.d/etcrestore: POSIX shell script, ASCII text executable
+./etc/init.d/etcbak_firm_up: POSIX shell script, ASCII text executable
+./etc/init.d/teld.sh: POSIX shell script, ASCII text executable
+./etc/nsswitch.conf: ASCII text
+./etc/minidlna.conf: ASCII text
+./etc/hosts: ASCII text
+./etc/ddns.conf: ASCII text
+./etc/fstab: ASCII text
+./etc/firmware: ASCII text
+./etc/upnp: directory
+./etc/upnp/upnpcport.conf: ASCII text
+./etc/upnp/upnpc.conf: ASCII text
+./etc/upnp/upnpd.conf: ASCII text
+./etc/fileserv: directory
+./etc/fileserv/lighttpd.conf: C source, ASCII text
+./etc/fileserv/modules.conf: C source, ASCII text
+./etc/fileserv/conf.d: directory
+./etc/fileserv/conf.d/access_log.conf: ASCII text
+./etc/fileserv/conf.d/proxy.conf: ASCII text
+./etc/fileserv/conf.d/geoip.conf: ASCII text
+./etc/fileserv/conf.d/trigger_b4_dl.conf: ASCII text
+./etc/fileserv/conf.d/debug.conf: ASCII text
+./etc/fileserv/conf.d/auth.conf: ASCII text
+./etc/fileserv/conf.d/mod.template: ASCII text
+./etc/fileserv/conf.d/mime.conf: ASCII text
+./etc/fileserv/conf.d/webdav.conf: ASCII text
+./etc/fileserv/conf.d/dirlisting.conf: ASCII text
+./etc/fileserv/conf.d/cgi.conf: ASCII text
+./etc/fileserv/fileserv.conf: ASCII text
+./etc/fileserv/lighttpd.user-: ASCII text
+./etc/fileserv/lighttpd.user: ASCII text
+./etc/services: ASCII text
+./etc/initnet: POSIX shell script, ASCII text executable
+./etc/resolv.conf: ASCII text
+./etc/group-: ASCII text
+./etc/shadow-: ASCII text
+./etc/mtab: ASCII text, with no line terminators
+./etc/local.conf: ASCII text
+./etc/dlna.png: PNG image data, 133 x 118, 8-bit colormap, non-interlaced
+./etc/secrets.tdb: TDB database version 6, little-endian hash size 131 bytes
+./etc/shadow: ASCII text
+./etc/vs_swapoff_flag: ASCII text
+./etc/vshttpd.conf: ASCII text
+./etc/group: ASCII text
+./etc/ld.so.conf: ASCII text
+./etc/setpasswd: ASCII text
+./etc/passwd-: ASCII text
+./etc/dhcp: directory
+./etc/dhcp/dhcpc.script: POSIX shell script, ASCII text executable
+./etc/timedate: ASCII text
+./etc/initsys: POSIX shell script, ASCII text executable
+./etc/rc.local: POSIX shell script, ASCII text executable
+./etc/ntp: directory
+./etc/ntp/ntp.cfg: ASCII text
+./etc/vsupload.conf: ASCII text
+./etc/nasclient.conf: ASCII text
+./etc/Wireless: directory
+./etc/Wireless/RT2860: directory
+./etc/Wireless/RT2860/router: directory
+./etc/Wireless/RT2860/RT2860.dat: ASCII text
+./etc/TZ: ASCII text
+./etc/initargs: POSIX shell script, ASCII text executable
+./etc/udev: directory
+./etc/udev/udev.conf: ASCII text
+./etc/udev/rules.d: directory
+./etc/udev/rules.d/15-usb_vbus.rules: ASCII text
+./etc/udev/rules.d/10-net.rules: ASCII text
+./etc/udev/rules.d/61-usb-storage.rules: ASCII text
+./etc/udev/script: directory
+./etc/udev/script/remove_usb_storage.sh: POSIX shell script, ASCII text executable
+./etc/udev/script/addbak.sh: POSIX shell script, ASCII text executable
+./etc/udev/script/add_usb_storage.sh: POSIX shell script, ASCII text executable
+./etc/udev/script/power.sh: POSIX shell script, ASCII text executable
+./etc/udev/script/reset.sh: POSIX shell script, ASCII text executable
+./etc/udev/script/add_usb.sh: POSIX shell script, ASCII text executable
+./etc/samba: directory
+./etc/samba/smbpasswd-: ASCII text
+./etc/samba/smb.conf: ASCII text
+./etc/samba/smbpasswd: ASCII text
+./etc/samba/smb.conf.admin: ASCII text
+./etc/samba/smbuser.conf: empty
+./etc/samba/smbusers: ASCII text
+./etc/versioninfo: ASCII text
+./etc/tzflag: ASCII text
+./etc/passwd: ASCII text
+./etc/webmg: directory
+./etc/webmg/webmg.conf: ASCII text
+./etc/inittime: POSIX shell script, ASCII text executable
+./etc/update: directory
+./etc/update/update.cfg: ASCII text
+./etc/hostname: ASCII text
+./etc/inittab: ASCII text
+./etc/udhcpd.conf: ASCII text
+./etc/host.conf: ASCII text
+./etc/protocols: ASCII text
+./etc/rc.d: directory
+./etc/rc.d/rc1.d: directory
+./etc/rc.d/rc1.d/S82upnpd: POSIX shell script, ASCII text executable
+./etc/rc.d/rc1.d/S80webd: ASCII text, with no line terminators
+./etc/rc.d/rc1.d/bakS01network: POSIX shell script, ASCII text executable
+./etc/rc.d/rc1.d/S83minidlna: POSIX shell script, ASCII text executable
+./etc/rc.d/rc1.d/nasclient: POSIX shell script, ASCII text executable
+./etc/rc.d/rc1.d/S32smbd: ASCII text, with no line terminators
+./etc/rc.d/rc1.d/smb.sh: POSIX shell script, ASCII text executable
+./etc/rc.d/rc1.d/S75fileserv: POSIX shell script, ASCII text executable
+./etc/rc.d/rc1.d/S34ntp: ASCII text, with no line terminators
+./etc/rc.d/rc1.d/S99local: ASCII text, with no line terminators
+./etc/rc.d/rc: POSIX shell script, ASCII text executable
+./etc/iosermap: ASCII text
+./sys: directory
+./var: directory
+./var/tmp: directory
+./var/locks: directory
+./var/state: directory
+./var/log: directory
+./var/logs: directory
+./var/cache: directory
+./var/run: directory
+./var/lock: directory
+./www: directory
+./www/lang: directory
+./www/lang/error.csp: ASCII text
+./www/lang/dldlink.csp: ASCII text
+./www/lang/index.csp: ASCII text
+./www/lang/tail.html: ASCII text
+./www/lang/protocol.csp: ASCII text
+./www/lang/sysfirm.csp: ASCII text
+./www/lang/header.html: ASCII text
+./www/lang/com.err: empty
+./www/miniyun: directory
+./www/miniyun/miniyun.htm: HTML document, UTF-8 Unicode (with BOM) text, with CRLF line terminators
+./www/themes: directory
+./www/themes/M2M: directory
+./www/themes/M2M/N-Btn-1.gif: GIF image data, version 89a, 139 x 101
+./www/themes/M2M/Setting-UpDown.jpg: JPEG image data, JFIF standard 1.01
+./www/themes/M2M/N-Arrow.gif: GIF image data, version 89a, 30 x 1300
+./www/themes/M2M/S-Out.png: PNG image data, 140 x 52, 8-bit/color RGBA, non-interlaced
+./www/themes/M2M/_Explor-nav.png: PNG image data, 649 x 79, 8-bit/color RGBA, non-interlaced
+./www/themes/M2M/ST-Power.jpg: JPEG image data, JFIF standard 1.01
+./www/themes/M2M/Setting-Time-No.png: PNG image data, 53 x 32, 8-bit/color RGBA, non-interlaced
+./www/themes/M2M/RunFrim.gif: GIF image data, version 89a, 27 x 78
+./www/themes/M2M/Loading-B1.gif: GIF image data, version 89a, 237 x 25
+./www/themes/M2M/N-Ipt-No.png: PNG image data, 500 x 66, 8-bit/color RGB, non-interlaced
+./www/themes/M2M/N-Btn-2.png: PNG image data, 101 x 96, 8-bit/color RGBA, non-interlaced
+./www/themes/M2M/WiFi_mode_1.png: PNG image data, 350 x 250, 8-bit/color RGBA, non-interlaced
+./www/themes/M2M/Setting-Bar.png: PNG image data, 342 x 45, 8-bit/color RGBA, non-interlaced
+./www/themes/M2M/N-Table-1.jpg: JPEG image data, JFIF standard 1.01
+./www/themes/M2M/S-Fot-t.png: PNG image data, 10 x 179, 8-bit/color RGB, non-interlaced
+./www/themes/M2M/ST-Services.jpg: JPEG image data, JFIF standard 1.01
+./www/themes/M2M/uppress-mc.gif: GIF image data, version 89a, 397 x 4
+./www/themes/M2M/OFFRE.gif: GIF image data, version 89a, 101 x 404
+./www/themes/M2M/N-Box-4.png: PNG image data, 92 x 40, 8-bit/color RGBA, non-interlaced
+./www/themes/M2M/N-Close-1.gif: GIF image data, version 89a, 25 x 75
+./www/themes/M2M/alpha.gif: GIF image data, version 89a, 10 x 10
+./www/themes/M2M/FormatDisk.gif: GIF image data, version 89a, 237 x 55
+./www/themes/M2M/Drift-logo.png: PNG image data, 300 x 89, 8-bit/color RGBA, non-interlaced
+./www/themes/M2M/S-Logo.png: PNG image data, 299 x 70, 8-bit/color RGBA, non-interlaced
+./www/themes/M2M/Drift-spiny.png: PNG image data, 10 x 1471, 8-bit/color RGBA, non-interlaced
+./www/themes/M2M/N-Table.jpg: JPEG image data, JFIF standard 1.01
+./www/themes/M2M/Setting-rim.jpg: JPEG image data, JFIF standard 1.01
+./www/themes/M2M/N-Btn-2.gif: GIF image data, version 89a, 101 x 96
+./www/themes/M2M/Drift-ico-3.png: PNG image data, 32 x 32, 8-bit/color RGBA, non-interlaced
+./www/themes/M2M/N-Box-4.gif: GIF image data, version 89a, 92 x 40
+./www/themes/M2M/uppress.gif: GIF image data, version 89a, 397 x 254
+./www/themes/M2M/Explor-Scroll.gif: GIF image data, version 89a, 17 x 65
+./www/themes/M2M/N-Table-2.jpg: JPEG image data, JFIF standard 1.01
+./www/themes/M2M/S-Fot-ico.png: PNG image data, 35 x 250, 8-bit/color RGB, non-interlaced
+./www/themes/M2M/uppressico.gif: GIF image data, version 89a, 24 x 24
+./www/themes/M2M/MoveCopyIco.gif: GIF image data, version 89a, 28 x 55
+./www/themes/M2M/run.gif: GIF image data, version 89a, 20 x 20
+./www/themes/M2M/Dlg-ico-3.png: PNG image data, 32 x 32, 8-bit/color RGBA, non-interlaced
+./www/themes/M2M/Disk-UseBlock.gif: GIF image data, version 89a, 103 x 32
+./www/themes/M2M/ST-Media.jpg: JPEG image data, JFIF standard 1.01
+./www/themes/M2M/Setting-Bar-n.gif: GIF image data, version 89a, 444 x 33
+./www/themes/M2M/stop.gif: GIF image data, version 89a, 20 x 20
+./www/themes/M2M/Drift-btn.gif: GIF image data, version 89a, 120 x 46
+./www/themes/M2M/N-Btn-4.png: PNG image data, 72 x 72, 8-bit/color RGBA, non-interlaced
+./www/themes/M2M/up_wait.gif: GIF image data, version 89a, 20 x 20
+./www/themes/M2M/Drift-min.gif: GIF image data, version 89a, 20 x 40
+./www/themes/M2M/Select_Lg.jpg: JPEG image data, JFIF standard 1.01
+./www/themes/M2M/ST-User.jpg: JPEG image data, JFIF standard 1.01
+./www/themes/M2M/N-Table-3.jpg: JPEG image data, JFIF standard 1.01
+./www/themes/M2M/wait.gif: GIF image data, version 89a, 20 x 20
+./www/themes/M2M/ST-System.jpg: JPEG image data, JFIF standard 1.01
+./www/themes/M2M/N-Btn-1.png: PNG image data, 139 x 105, 8-bit/color RGBA, non-interlaced
+./www/themes/M2M/N-Btn-4.gif: GIF image data, version 89a, 72 x 72
+./www/themes/M2M/Exp-upBg.gif: GIF image data, version 89a, 475 x 102
+./www/themes/M2M/N-Btn-3.gif: GIF image data, version 89a, 60 x 105
+./www/themes/M2M/ExDw-Cot.png: PNG image data, 4 x 1155, 8-bit/color RGB, non-interlaced
+./www/themes/M2M/Drift-ico-1.png: PNG image data, 32 x 32, 8-bit/color RGBA, non-interlaced
+./www/themes/M2M/WiFi_mode_0.png: PNG image data, 350 x 250, 8-bit/color RGBA, non-interlaced
+./www/themes/M2M/Setting-line.jpg: JPEG image data, JFIF standard 1.01
+./www/themes/M2M/Drift-dialog.gif: GIF image data, version 89a, 37 x 20
+./www/themes/M2M/ST-Disk.jpg: JPEG image data, JFIF standard 1.01
+./www/themes/M2M/ST-Wizard.jpg: JPEG image data, JFIF standard 1.01
+./www/themes/M2M/N-Select-bg.png: PNG image data, 500 x 162, 8-bit/color RGB, non-interlaced
+./www/themes/M2M/ST-Network.jpg: JPEG image data, JFIF standard 1.01
+./www/themes/M2M/N-Close-2.gif: GIF image data, version 89a, 33 x 93
+./www/themes/M2M/Explorer-ico.gif: GIF image data, version 89a, 25 x 120
+./www/themes/M2M/Setting-Time.png: PNG image data, 53 x 32, 8-bit/color RGB, non-interlaced
+./www/themes/M2M/Drift-ico-2.png: PNG image data, 32 x 32, 8-bit/color RGBA, non-interlaced
+./www/themes/M2M/Explorer-public.gif: GIF image data, version 89a, 29 x 29
+./www/themes/M2M/Drift-close.gif: GIF image data, version 89a, 20 x 40
+./www/themes/M2M/ST-Folder.jpg: JPEG image data, JFIF standard 1.01
+./www/themes/M2M/ExListIco.gif: GIF image data, version 89a, 30 x 52
+./www/themes/M2M/Disk-UseCot.png: PNG image data, 115 x 343, 8-bit/color RGBA, non-interlaced
+./www/themes/M2M/up_run.gif: GIF image data, version 89a, 20 x 20
+./www/themes/M2M/N-Btn-5.gif: GIF image data, version 89a, 80 x 48
+./www/themes/M2M/complete.gif: GIF image data, version 89a, 20 x 20
+./www/themes/M2M/help: directory
+./www/themes/M2M/help/pu_PU.html: HTML document, UTF-8 Unicode (with BOM) text, with very long lines, with CRLF line terminators
+./www/themes/M2M/help/it_IT.html: HTML document, UTF-8 Unicode (with BOM) text, with very long lines, with CRLF line terminators
+./www/themes/M2M/help/fr_FR.html: HTML document, UTF-8 Unicode (with BOM) text, with very long lines, with CRLF line terminators
+./www/themes/M2M/help/us.html: HTML document, UTF-8 Unicode (with BOM) text, with very long lines, with CRLF line terminators
+./www/themes/M2M/help/1.png: PNG image data, 257 x 193, 8-bit/color RGB, non-interlaced
+./www/themes/M2M/help/2.png: PNG image data, 352 x 264, 8-bit/color RGB, non-interlaced
+./www/themes/M2M/help/po_PO.html: HTML document, UTF-8 Unicode (with BOM) text, with very long lines, with CRLF line terminators
+./www/themes/M2M/help/ru_RU.html: HTML document, UTF-8 Unicode (with BOM) text, with very long lines, with CRLF line terminators
+./www/themes/M2M/help/de_DE.html: HTML document, UTF-8 Unicode (with BOM) text, with very long lines, with CRLF line terminators
+./www/themes/M2M/help/sp_SP.html: HTML document, UTF-8 Unicode (with BOM) text, with very long lines, with CRLF line terminators
+./www/themes/M2M/Loading-B.gif: GIF image data, version 89a, 237 x 25
+./www/themes/M2M/N-Scroll.jpg: JPEG image data, JFIF standard 1.01
+./www/themes/M2M/Drift-ico-4.png: PNG image data, 32 x 32, 8-bit/color RGBA, non-interlaced
+./www/themes/M2M/Setting-Bar-n.png: PNG image data, 444 x 33, 8-bit/color RGBA, non-interlaced
+./www/themes/M2M/Drift-spiny.gif: GIF image data, version 89a, 10 x 23
+./www/themes/M2M/N-Ipt.png: PNG image data, 500 x 66, 8-bit/color RGB, non-interlaced
+./www/themes/M2M/N-Select-lr.png: PNG image data, 8 x 162, 8-bit/color RGB, non-interlaced
+./www/themes/M2M/Explor-nav.png: GIF image data, version 89a, 649 x 79
+./www/themes/M2M/Open.gif: GIF image data, version 89a, 56 x 37
+./www/themes/M2M/N-Box-1.png: PNG image data, 20 x 40, 8-bit/color RGBA, non-interlaced
+./www/themes/M2M/N-Box-1.gif: GIF image data, version 89a, 20 x 40
+./www/themes/M2M/Setting-Bar-2.png: PNG image data, 51 x 33, 8-bit/color RGBA, non-interlaced
+./www/themes/M2M/Explor-nav-right.png: PNG image data, 40 x 629, 8-bit/color RGBA, non-interlaced
+./www/themes/M2M/S-status1.jpg: JPEG image data, JFIF standard 1.01
+./www/themes/M2M/N-Btn-5.png: PNG image data, 80 x 48, 8-bit/color RGBA, non-interlaced
+./www/themes/M2M/N-Btn-3.png: PNG image data, 60 x 105, 8-bit/color RGBA, non-interlaced
+./www/themes/M2M/WiFi_mode_3.png: PNG image data, 350 x 250, 8-bit/color RGBA, non-interlaced
+./www/themes/M2M/error.gif: GIF image data, version 89a, 20 x 20
+./www/themes/M2M.css: UTF-8 Unicode text, with very long lines, with CRLF line terminators
+./www/firmware: directory
+./www/apps: directory
+./www/apps/explorer: directory
+./www/apps/explorer/explorer.html: HTML document, UTF-8 Unicode (with BOM) text, with CRLF line terminators
+./www/apps/explorer/icons: directory
+./www/apps/explorer/icons/Ico_parentdirectory.gif: GIF image data, version 89a, 20 x 20
+./www/apps/explorer/icons/Ico_iso.gif: GIF image data, version 89a, 20 x 20
+./www/apps/explorer/icons/Ico_css.gif: GIF image data, version 89a, 22 x 22
+./www/apps/explorer/icons/Ico_thm.gif: GIF image data, version 89a, 22 x 22
+./www/apps/explorer/icons/Ico_doc.gif: GIF image data, version 89a, 20 x 20
+./www/apps/explorer/icons/Ico_wav.gif: GIF image data, version 89a, 20 x 20
+./www/apps/explorer/icons/Ico_gif.gif: GIF image data, version 89a, 20 x 20
+./www/apps/explorer/icons/Ico_wmv.gif: GIF image data, version 89a, 20 x 20
+./www/apps/explorer/icons/Ico_txt.gif: GIF image data, version 89a, 20 x 20
+./www/apps/explorer/icons/Ico_xls.gif: GIF image data, version 89a, 20 x 20
+./www/apps/explorer/icons/Ico_file.gif: GIF image data, version 89a, 20 x 20
+./www/apps/explorer/icons/Ico_mkv.gif: GIF image data, version 89a, 20 x 20
+./www/apps/explorer/icons/Ico_mp4.gif: GIF image data, version 89a, 20 x 20
+./www/apps/explorer/icons/Ico_ppt.gif: GIF image data, version 89a, 20 x 20
+./www/apps/explorer/icons/Ico_gov.gif: GIF image data, version 89a, 20 x 20
+./www/apps/explorer/icons/Ico_rmvb.gif: GIF image data, version 89a, 20 x 20
+./www/apps/explorer/icons/Ico_jpeg.gif: GIF image data, version 89a, 22 x 22
+./www/apps/explorer/icons/Ico_.gif: GIF image data, version 89a, 20 x 20
+./www/apps/explorer/icons/Ico_xlsx.gif: GIF image data, version 89a, 20 x 20
+./www/apps/explorer/icons/Ico_rm.gif: GIF image data, version 89a, 20 x 20
+./www/apps/explorer/icons/Ico_docx.gif: GIF image data, version 89a, 20 x 20
+./www/apps/explorer/icons/Ico_php.gif: GIF image data, version 89a, 20 x 20
+./www/apps/explorer/icons/Ico_psd.gif: GIF image data, version 89a, 20 x 20
+./www/apps/explorer/icons/Ico_exe.gif: GIF image data, version 89a, 20 x 20
+./www/apps/explorer/icons/Ico_mp3.gif: GIF image data, version 89a, 20 x 20
+./www/apps/explorer/icons/Ico_png.gif: GIF image data, version 89a, 20 x 20
+./www/apps/explorer/icons/Ico_3gp.gif: GIF image data, version 89a, 20 x 20
+./www/apps/explorer/icons/Ico_html.gif: GIF image data, version 89a, 20 x 20
+./www/apps/explorer/icons/Ico_bmp.gif: GIF image data, version 89a, 20 x 20
+./www/apps/explorer/icons/Ico_avi.gif: GIF image data, version 89a, 20 x 20
+./www/apps/explorer/icons/Ico_wma.gif: GIF image data, version 89a, 20 x 20
+./www/apps/explorer/icons/Ico_pdf.gif: GIF image data, version 89a, 20 x 20
+./www/apps/explorer/icons/Ico_jpg.gif: GIF image data, version 89a, 20 x 20
+./www/apps/explorer/icons/Ico_mov.gif: GIF image data, version 89a, 20 x 20
+./www/apps/explorer/TM01_icons: directory
+./www/apps/explorer/TM01_icons/Ico_parentdirectory.gif: GIF image data, version 89a, 20 x 20
+./www/apps/explorer/TM01_icons/Ico_iso.gif: GIF image data, version 89a, 20 x 20
+./www/apps/explorer/TM01_icons/Ico_css.gif: GIF image data, version 89a, 22 x 22
+./www/apps/explorer/TM01_icons/Ico_thm.gif: GIF image data, version 89a, 22 x 22
+./www/apps/explorer/TM01_icons/Ico_doc.gif: GIF image data, version 89a, 20 x 20
+./www/apps/explorer/TM01_icons/Ico_wav.gif: GIF image data, version 89a, 20 x 20
+./www/apps/explorer/TM01_icons/Ico_gif.gif: GIF image data, version 89a, 20 x 20
+./www/apps/explorer/TM01_icons/Ico_wmv.gif: GIF image data, version 89a, 20 x 20
+./www/apps/explorer/TM01_icons/Ico_txt.gif: GIF image data, version 89a, 20 x 20
+./www/apps/explorer/TM01_icons/Ico_xls.gif: GIF image data, version 89a, 20 x 20
+./www/apps/explorer/TM01_icons/Ico_file.gif: GIF image data, version 89a, 20 x 20
+./www/apps/explorer/TM01_icons/Ico_mkv.gif: GIF image data, version 89a, 20 x 20
+./www/apps/explorer/TM01_icons/Ico_mp4.gif: GIF image data, version 89a, 20 x 20
+./www/apps/explorer/TM01_icons/Ico_ppt.gif: GIF image data, version 89a, 20 x 20
+./www/apps/explorer/TM01_icons/Ico_gov.gif: GIF image data, version 89a, 20 x 20
+./www/apps/explorer/TM01_icons/Ico_rmvb.gif: GIF image data, version 89a, 20 x 20
+./www/apps/explorer/TM01_icons/Ico_jpeg.gif: GIF image data, version 89a, 22 x 22
+./www/apps/explorer/TM01_icons/Ico_.gif: GIF image data, version 89a, 20 x 20
+./www/apps/explorer/TM01_icons/Ico_xlsx.gif: GIF image data, version 89a, 20 x 20
+./www/apps/explorer/TM01_icons/Ico_rm.gif: GIF image data, version 89a, 20 x 20
+./www/apps/explorer/TM01_icons/Ico_docx.gif: GIF image data, version 89a, 20 x 20
+./www/apps/explorer/TM01_icons/Ico_php.gif: GIF image data, version 89a, 20 x 20
+./www/apps/explorer/TM01_icons/Ico_psd.gif: GIF image data, version 89a, 20 x 20
+./www/apps/explorer/TM01_icons/Ico_exe.gif: GIF image data, version 89a, 20 x 20
+./www/apps/explorer/TM01_icons/Ico_mp3.gif: GIF image data, version 89a, 20 x 20
+./www/apps/explorer/TM01_icons/Ico_png.gif: GIF image data, version 89a, 20 x 20
+./www/apps/explorer/TM01_icons/Ico_3gp.gif: GIF image data, version 89a, 20 x 20
+./www/apps/explorer/TM01_icons/Ico_html.gif: GIF image data, version 89a, 20 x 20
+./www/apps/explorer/TM01_icons/Ico_bmp.gif: GIF image data, version 89a, 20 x 20
+./www/apps/explorer/TM01_icons/Ico_avi.gif: GIF image data, version 89a, 20 x 20
+./www/apps/explorer/TM01_icons/Ico_wma.gif: GIF image data, version 89a, 20 x 20
+./www/apps/explorer/TM01_icons/Ico_pdf.gif: GIF image data, version 89a, 20 x 20
+./www/apps/explorer/TM01_icons/Ico_jpg.gif: GIF image data, version 89a, 20 x 20
+./www/apps/explorer/TM01_icons/Ico_mov.gif: GIF image data, version 89a, 20 x 20
+./www/apps/information: directory
+./www/apps/information/device.html: HTML document, UTF-8 Unicode (with BOM) text, with CRLF line terminators
+./www/apps/information/information.html: HTML document, UTF-8 Unicode (with BOM) text, with CRLF line terminators
+./www/apps/information/network.html: HTML document, UTF-8 Unicode (with BOM) text, with CRLF line terminators
+./www/apps/information/storage.html: HTML document, UTF-8 Unicode (with BOM) text, with CRLF line terminators
+./www/apps/services: directory
+./www/apps/services/ext.html: HTML document, UTF-8 Unicode (with BOM) text, with CRLF line terminators
+./www/apps/services/win.html: HTML document, UTF-8 Unicode (with BOM) text, with CRLF line terminators
+./www/apps/services/services.html: HTML document, UTF-8 Unicode (with BOM) text, with CRLF line terminators
+./www/apps/services/dlna.html: HTML document, UTF-8 Unicode (with BOM) text, with CRLF line terminators
+./www/apps/disk: directory
+./www/apps/disk/disk.html: HTML document, UTF-8 Unicode (with BOM) text, with CRLF line terminators
+./www/apps/disk/usb.html: HTML document, UTF-8 Unicode (with BOM) text, with CRLF line terminators
+./www/apps/disk/disk2.html: HTML document, UTF-8 Unicode (with BOM) text, with CRLF line terminators
+./www/apps/disk/disk1.html: HTML document, UTF-8 Unicode (with BOM) text, with CRLF line terminators
+./www/apps/disk/usb1.html: HTML document, UTF-8 Unicode (with BOM) text, with CRLF line terminators
+./www/apps/disk/volume.html: HTML document, UTF-8 Unicode (with BOM) text, with CRLF line terminators
+./www/apps/disk/create.html: HTML document, UTF-8 Unicode (with BOM) text, with CRLF line terminators
+./www/apps/power: directory
+./www/apps/power/restart.html: HTML document, UTF-8 Unicode (with BOM) text, with CRLF line terminators
+./www/apps/network: directory
+./www/apps/network/wifi.html: HTML document, UTF-8 Unicode (with BOM) text, with CRLF line terminators
+./www/apps/network/internet.html: HTML document, UTF-8 Unicode (with BOM) text, with CRLF line terminators
+./www/apps/network/host.html: HTML document, UTF-8 Unicode (with BOM) text, with CRLF line terminators
+./www/apps/network/ddns.html: HTML document, UTF-8 Unicode (with BOM) text, with CRLF line terminators
+./www/apps/network/network.html: HTML document, UTF-8 Unicode (with BOM) text, with CRLF line terminators
+./www/apps/network/mode.html: HTML document, UTF-8 Unicode (with BOM) text, with CRLF line terminators
+./www/apps/network/dhcp.html: HTML document, UTF-8 Unicode (with BOM) text, with CRLF line terminators
+./www/apps/system: directory
+./www/apps/system/firm.html: HTML document, UTF-8 Unicode (with BOM) text, with very long lines, with CRLF line terminators
+./www/apps/system/back.html: HTML document, UTF-8 Unicode (with BOM) text, with very long lines, with CRLF line terminators
+./www/apps/system/time.html: HTML document, UTF-8 Unicode (with BOM) text, with CRLF line terminators
+./www/apps/system/reset.html: HTML document, UTF-8 Unicode (with BOM) text, with CRLF line terminators
+./www/apps/system/about.html: HTML document, UTF-8 Unicode (with BOM) text, with CRLF line terminators
+./www/apps/html: directory
+./www/apps/html/settings.html: HTML document, UTF-8 Unicode (with BOM) text, with CRLF line terminators
+./www/apps/html/main.html: HTML document, UTF-8 Unicode (with BOM) text, with CRLF line terminators
+./www/apps/wizard: directory
+./www/apps/wizard/1.html: HTML document, UTF-8 Unicode (with BOM) text, with CRLF line terminators
+./www/apps/wizard/2.html: HTML document, UTF-8 Unicode (with BOM) text, with CRLF line terminators
+./www/apps/wizard/5.html: HTML document, ASCII text, with CRLF line terminators
+./www/apps/wizard/4.html: HTML document, UTF-8 Unicode (with BOM) text, with CRLF line terminators
+./www/apps/wizard/3.html: HTML document, UTF-8 Unicode (with BOM) text, with CRLF line terminators
+./www/apps/help: directory
+./www/apps/help/pics: directory
+./www/apps/help/pics/help-2.jpg: JPEG image data, JFIF standard 1.01
+./www/apps/help/pics/help-9.jpg: JPEG image data, JFIF standard 1.01
+./www/apps/help/pics/help-6.jpg: JPEG image data, JFIF standard 1.01
+./www/apps/help/pics/help-4.jpg: JPEG image data, JFIF standard 1.01
+./www/apps/help/pics/help-14.jpg: JPEG image data, JFIF standard 1.01
+./www/apps/help/pics/help-11.jpg: JPEG image data, JFIF standard 1.01
+./www/apps/help/pics/help-13.jpg: JPEG image data, JFIF standard 1.01
+./www/apps/help/pics/help-7.jpg: JPEG image data, JFIF standard 1.01
+./www/apps/help/pics/help-1.jpg: JPEG image data, JFIF standard 1.01
+./www/apps/help/pics/help-10.jpg: JPEG image data, JFIF standard 1.01
+./www/apps/help/pics/help-12.jpg: JPEG image data, JFIF standard 1.01
+./www/apps/help/pics/help-8.jpg: JPEG image data, JFIF standard 1.01
+./www/apps/help/pics/help-5.jpg: JPEG image data, JFIF standard 1.01
+./www/apps/help/pics/help-3.jpg: JPEG image data, JFIF standard 1.01
+./www/apps/help/pu_PU.html: HTML document, UTF-8 Unicode (with BOM) text, with very long lines, with CRLF line terminators
+./www/apps/help/zh_CN.html: HTML document, UTF-8 Unicode (with BOM) text, with CRLF line terminators
+./www/apps/help/macally: directory
+./www/apps/help/macally/1.png: PNG image data, 257 x 193, 8-bit/color RGBA, non-interlaced
+./www/apps/help/macally/2.png: JPEG image data, JFIF standard 1.01
+./www/apps/help/2: directory
+./www/apps/help/2/1.jpg: JPEG image data, JFIF standard 1.02
+./www/apps/help/2/2.jpg: JPEG image data, JFIF standard 1.02
+./www/apps/help/it_IT.html: HTML document, UTF-8 Unicode (with BOM) text, with very long lines, with CRLF line terminators
+./www/apps/help/fr_FR.html: HTML document, UTF-8 Unicode (with BOM) text, with very long lines, with CRLF line terminators
+./www/apps/help/du_DU.html: HTML document, UTF-8 Unicode (with BOM) text, with CRLF line terminators
+./www/apps/help/us.html: HTML document, UTF-8 Unicode (with BOM) text, with CRLF line terminators
+./www/apps/help/tr_CN.html: HTML document, UTF-8 Unicode (with BOM) text, with CRLF line terminators
+./www/apps/help/ru_RU.html: HTML document, UTF-8 Unicode (with BOM) text, with very long lines, with CRLF line terminators
+./www/apps/help/ja_JP.html: HTML document, UTF-8 Unicode (with BOM) text, with CRLF line terminators
+./www/apps/help/de_DE.html: HTML document, UTF-8 Unicode (with BOM) text, with CRLF line terminators
+./www/apps/help/ko_KO.html: HTML document, UTF-8 Unicode (with BOM) text, with CRLF line terminators
+./www/apps/help/sp_SP.html: HTML document, UTF-8 Unicode (with BOM) text, with CRLF line terminators
+./www/apps/help/ko: directory
+./www/apps/help/ko/3.jpg: JPEG image data, JFIF standard 1.01
+./www/apps/help/ko/4.jpg: JPEG image data, JFIF standard 1.01
+./www/apps/help/ko/1.jpg: JPEG image data, JFIF standard 1.01
+./www/apps/help/ko/5.jpg: JPEG image data, JFIF standard 1.01
+./www/apps/help/ko/1.png: PNG image data, 257 x 193, 8-bit/color RGBA, non-interlaced
+./www/apps/help/ko/2.png: PNG image data, 352 x 264, 8-bit/color RGBA, non-interlaced
+./www/apps/help/ko/6.png: PNG image data, 271 x 178, 8-bit/color RGBA, non-interlaced
+./www/apps/help/ko/2.jpg: JPEG image data, JFIF standard 1.01
+./www/apps/user: directory
+./www/apps/user/user.html: HTML document, UTF-8 Unicode (with BOM) text, with CRLF line terminators
+./www/script: directory
+./www/script/PickTime.js: HTML document, UTF-8 Unicode text, with CRLF line terminators
+./www/script/explorer: directory
+./www/script/explorer/explorer.js: UTF-8 Unicode (with BOM) text, with very long lines, with CRLF line terminators
+./www/script/core.js: UTF-8 Unicode text, with very long lines, with CRLF line terminators
+./www/script/uploadnas.swf: Macromedia Flash data (compressed), version 9
+./www/script/information: directory
+./www/script/information/network.js: UTF-8 Unicode text, with CRLF line terminators
+./www/script/information/storage.js: UTF-8 Unicode text, with CRLF line terminators
+./www/script/information/information.js: UTF-8 Unicode text, with CRLF line terminators
+./www/script/information/device.js: UTF-8 Unicode text, with CRLF line terminators
+./www/script/services: directory
+./www/script/services/ext.js: HTML document, UTF-8 Unicode text, with CRLF line terminators
+./www/script/services/dlna.js: UTF-8 Unicode text, with CRLF line terminators
+./www/script/services/services.js: UTF-8 Unicode text, with CRLF line terminators
+./www/script/services/win.js: UTF-8 Unicode text, with CRLF line terminators
+./www/script/disk: directory
+./www/script/disk/disk.js: UTF-8 Unicode text, with very long lines, with CRLF line terminators
+./www/script/disk/volume.js: HTML document, UTF-8 Unicode text, with very long lines, with CRLF line terminators
+./www/script/disk/create.js: UTF-8 Unicode text, with CRLF line terminators
+./www/script/disk/usb.js: UTF-8 Unicode text, with CRLF line terminators
+./www/script/power: directory
+./www/script/power/restart.js: UTF-8 Unicode text, with CRLF line terminators
+./www/script/network: directory
+./www/script/network/dhcp.js: UTF-8 Unicode text, with very long lines, with CRLF line terminators
+./www/script/network/network.js: UTF-8 Unicode text, with CRLF line terminators
+./www/script/network/wifi.js: HTML document, UTF-8 Unicode text, with CRLF line terminators
+./www/script/network/ddns.js: HTML document, UTF-8 Unicode text, with CRLF line terminators
+./www/script/network/internet.js: UTF-8 Unicode text, with very long lines, with CRLF line terminators
+./www/script/network/mode.js: UTF-8 Unicode text, with CRLF line terminators
+./www/script/network/host.js: UTF-8 Unicode text, with CRLF line terminators
+./www/script/system: directory
+./www/script/system/firm.js: UTF-8 Unicode text, with CRLF line terminators
+./www/script/system/back.js: UTF-8 Unicode text, with CRLF line terminators
+./www/script/system/reset.js: UTF-8 Unicode text, with CRLF line terminators
+./www/script/system/about.js: UTF-8 Unicode text, with CRLF line terminators
+./www/script/system/time.js: HTML document, UTF-8 Unicode text, with CRLF line terminators
+./www/script/language.js: UTF-8 Unicode (with BOM) text, with CRLF line terminators
+./www/script/lge: directory
+./www/script/lge/po_PO.js: UTF-8 Unicode (with BOM) text, with CRLF line terminators
+./www/script/lge/it_IT.js: UTF-8 Unicode (with BOM) text, with CRLF line terminators
+./www/script/lge/pu_PU.js: UTF-8 Unicode (with BOM) text, with CRLF line terminators
+./www/script/lge/fr_FR.js: UTF-8 Unicode (with BOM) text, with CRLF line terminators
+./www/script/lge/sp_SP.js: UTF-8 Unicode (with BOM) text, with CRLF line terminators
+./www/script/lge/ru_RU.js: UTF-8 Unicode (with BOM) text, with CRLF line terminators
+./www/script/lge/us.js: UTF-8 Unicode (with BOM) text, with CRLF line terminators
+./www/script/lge/de_DE.js: UTF-8 Unicode (with BOM) text, with CRLF line terminators
+./www/script/html: directory
+./www/script/html/index.js: UTF-8 Unicode (with BOM) text, with very long lines, with CRLF line terminators
+./www/script/html/settings.js: ASCII text, with CRLF line terminators
+./www/script/html/help.js: ASCII text, with CRLF line terminators
+./www/script/wizard: directory
+./www/script/wizard/5.js: UTF-8 Unicode text, with CRLF line terminators
+./www/script/wizard/4.js: UTF-8 Unicode text, with CRLF line terminators
+./www/script/user: directory
+./www/script/user/user.js: UTF-8 Unicode text, with CRLF line terminators
+./www/script/config.js: UTF-8 Unicode (with BOM) text, with CRLF, LF line terminators
+./www/index.html: HTML document, UTF-8 Unicode text, with very long lines, with CRLF line terminators
+./boot: directory
+./boot/tmp: directory
+./opt: directory
+./home: directory
+./usr: directory
+./usr/local: directory
+./usr/local/fileserv: directory
+./usr/local/samba: directory
+./usr/local/samba/var: directory
+./usr/local/samba/var/log.smbd: data
+./usr/share: directory
+./usr/share/zoneinfo: directory
+./usr/share/zoneinfo/(GMT+11:00)Magadan: timezone data, old version, 8 gmt time flags, 8 std time flags, no leap seconds, 117 transition times, 8 abbreviation chars
+./usr/share/zoneinfo/(GMT+03:00)Moscow: timezone data, old version, 12 gmt time flags, 12 std time flags, no leap seconds, 129 transition times, 12 abbreviation chars
+./usr/share/zoneinfo/(GMT-03:00)Buenos: timezone data, old version, 5 gmt time flags, 5 std time flags, no leap seconds, 68 transition times, 5 abbreviation chars
+./usr/share/zoneinfo/(GMT+10:00)Hobart: timezone data, old version, 1 gmt time flag, 1 std time flag, no leap seconds, no transition times, 1 abbreviation char
+./usr/share/zoneinfo/(GMT-10:00)Hawaii: timezone data, old version, 5 gmt time flags, 5 std time flags, no leap seconds, 6 transition times, 5 abbreviation chars
+./usr/share/zoneinfo/(GMT+02:00)Israel: timezone data, old version, 5 gmt time flags, 5 std time flags, no leap seconds, 117 transition times, 5 abbreviation chars
+./usr/share/zoneinfo/(GMT+01:00)Brussels: timezone data, old version, 10 gmt time flags, 10 std time flags, no leap seconds, 185 transition times, 10 abbreviation chars
+./usr/share/zoneinfo/(GMT+09:00)Osaka: timezone data, old version, 2 gmt time flags, 2 std time flags, no leap seconds, 1 transition time, 2 abbreviation chars
+./usr/share/zoneinfo/(GMT+01:00)Amsterdam: timezone data, old version, 8 gmt time flags, 8 std time flags, no leap seconds, 143 transition times, 8 abbreviation chars
+./usr/share/zoneinfo/(GMT+08:00)Hongkong: timezone data, old version, 3 gmt time flags, 3 std time flags, no leap seconds, 69 transition times, 3 abbreviation chars
+./usr/share/zoneinfo/(GMT-04:00)Santiago: timezone data, old version, 3 gmt time flags, 3 std time flags, no leap seconds, 2 transition times, 3 abbreviation chars
+./usr/share/zoneinfo/(GMT-07:00)Mountain: timezone data, old version, 4 gmt time flags, 4 std time flags, no leap seconds, 157 transition times, 4 abbreviation chars
+./usr/share/zoneinfo/(GMT-07:00)Arizona: timezone data, old version, 3 gmt time flags, 3 std time flags, no leap seconds, 10 transition times, 3 abbreviation chars
+./usr/share/zoneinfo/(GMT+08:00)Beijing: timezone data, old version, 3 gmt time flags, 3 std time flags, no leap seconds, 69 transition times, 3 abbreviation chars
+./usr/share/zoneinfo/(GMT+12:00)Auckland: timezone data, old version, 3 gmt time flags, 3 std time flags, no leap seconds, 5 transition times, 3 abbreviation chars
+./usr/share/zoneinfo/(GMT)Casablanca: timezone data, old version, 4 gmt time flags, 4 std time flags, no leap seconds, 19 transition times, 4 abbreviation chars
+./usr/share/zoneinfo/(GMT+08:00)Singapore: timezone data, old version, 7 gmt time flags, 7 std time flags, no leap seconds, 7 transition times, 7 abbreviation chars
+./usr/share/zoneinfo/(GMT-06:00)Saskatchewan: timezone data, old version, 4 gmt time flags, 4 std time flags, no leap seconds, 54 transition times, 4 abbreviation chars
+./usr/share/zoneinfo/(GMT+01:00)Sarajevo: timezone data, old version, 6 gmt time flags, 6 std time flags, no leap seconds, 119 transition times, 6 abbreviation chars
+./usr/share/zoneinfo/(GMT-05:00)Indiana: timezone data, old version, 6 gmt time flags, 6 std time flags, no leap seconds, 34 transition times, 6 abbreviation chars
+./usr/share/zoneinfo/(GMT-06:00)Central: timezone data, old version, 5 gmt time flags, 5 std time flags, no leap seconds, 235 transition times, 5 abbreviation chars
+./usr/share/zoneinfo/(GMT+01:00)Belgrade: timezone data, old version, 6 gmt time flags, 6 std time flags, no leap seconds, 119 transition times, 6 abbreviation chars
+./usr/share/zoneinfo/(GMT-05:00)Eastern: timezone data, old version, 4 gmt time flags, 4 std time flags, no leap seconds, 235 transition times, 4 abbreviation chars
+./usr/share/zoneinfo/(GMT-01:00)Azores: timezone data, old version, 12 gmt time flags, 12 std time flags, no leap seconds, 220 transition times, 12 abbreviation chars
+./usr/share/zoneinfo/(GMT+02:00)Harare: timezone data, old version, 2 gmt time flags, 2 std time flags, no leap seconds, 1 transition time, 2 abbreviation chars
+./usr/share/zoneinfo/(GMT+10:00)Canberra: timezone data, old version, 4 gmt time flags, 4 std time flags, no leap seconds, 16 transition times, 4 abbreviation chars
+./usr/share/zoneinfo/(GMT+12:00)Fiji: timezone data, old version, 3 gmt time flags, 3 std time flags, no leap seconds, 5 transition times, 3 abbreviation chars
+./usr/share/zoneinfo/(GMT)Greenwich: timezone data, old version, 10 gmt time flags, 10 std time flags, no leap seconds, 229 transition times, 10 abbreviation chars
+./usr/share/zoneinfo/(GMT-12:00)Eniwetok: timezone data, old version, 3 gmt time flags, 3 std time flags, no leap seconds, 2 transition times, 3 abbreviation chars
+./usr/share/zoneinfo/(GMT+08:00)Taipei: timezone data, old version, 2 gmt time flags, 2 std time flags, no leap seconds, 40 transition times, 2 abbreviation chars
+./usr/share/zoneinfo/(GMT-05:00)Bogota: timezone data, old version, 3 gmt time flags, 3 std time flags, no leap seconds, 13 transition times, 3 abbreviation chars
+./usr/share/zoneinfo/(GMT+03:00)Baghdad: timezone data, old version, 5 gmt time flags, 5 std time flags, no leap seconds, 113 transition times, 5 abbreviation chars
+./usr/share/zoneinfo/(GMT-03:00)Brasilia: timezone data, old version, 5 gmt time flags, 5 std time flags, no leap seconds, 68 transition times, 5 abbreviation chars
+./usr/share/zoneinfo/(GMT+09:30)Adelaide: timezone data, old version, 2 gmt time flags, 2 std time flags, no leap seconds, 8 transition times, 2 abbreviation chars
+./usr/share/zoneinfo/(GMT-06:00)Mexico: timezone data, old version, 4 gmt time flags, 4 std time flags, no leap seconds, 98 transition times, 4 abbreviation chars
+./usr/share/zoneinfo/(GMT+06:00)Almaty: timezone data, old version, 8 gmt time flags, 8 std time flags, no leap seconds, 117 transition times, 8 abbreviation chars
+./usr/share/zoneinfo/(GMT+08:00)Perth: timezone data, old version, 4 gmt time flags, 4 std time flags, no leap seconds, 12 transition times, 4 abbreviation chars
+./usr/share/zoneinfo/(GMT-09:00)Alaska: timezone data, old version, 7 gmt time flags, 7 std time flags, no leap seconds, 142 transition times, 7 abbreviation chars
+./usr/share/zoneinfo/(GMT+05:30)Bombay: timezone data, old version, 4 gmt time flags, 4 std time flags, no leap seconds, 4 transition times, 4 abbreviation chars
+./usr/share/zoneinfo/(GMT+09:30)Darwin: timezone data, old version, 2 gmt time flags, 2 std time flags, no leap seconds, 8 transition times, 2 abbreviation chars
+./usr/share/zoneinfo/(GMT+04:00)AbuDhabi: timezone data, old version, 2 gmt time flags, 2 std time flags, no leap seconds, 1 transition time, 2 abbreviation chars
+./usr/share/zoneinfo/(GMT+05:00)Islamabad: timezone data, old version, 5 gmt time flags, 5 std time flags, no leap seconds, 5 transition times, 5 abbreviation chars
+./usr/share/zoneinfo/(GMT-08:00)Pacific: timezone data, old version, 4 gmt time flags, 4 std time flags, no leap seconds, 145 transition times, 4 abbreviation chars
+./usr/share/zoneinfo/(GMT+05:00)Ekaterinburg: timezone data, old version, 12 gmt time flags, 12 std time flags, no leap seconds, 117 transition times, 12 abbreviation chars
+./usr/share/zoneinfo/(GMT+10:00)Vladivostok: timezone data, old version, 8 gmt time flags, 8 std time flags, no leap seconds, 117 transition times, 8 abbreviation chars
+./usr/share/zoneinfo/(GMT+00:00)Greenwich: timezone data, old version, 10 gmt time flags, 10 std time flags, no leap seconds, 229 transition times, 10 abbreviation chars
+./usr/share/zoneinfo/(GMT-04:00)Atlantic: timezone data, old version, 3 gmt time flags, 3 std time flags, no leap seconds, 229 transition times, 3 abbreviation chars
+./usr/share/zoneinfo/(GMT+04:00)Baku: timezone data, old version, 15 gmt time flags, 15 std time flags, no leap seconds, 114 transition times, 15 abbreviation chars
+./usr/share/zoneinfo/(GMT+02:00)Helsinki: timezone data, old version, 5 gmt time flags, 5 std time flags, no leap seconds, 117 transition times, 5 abbreviation chars
+./usr/share/zoneinfo/(GMT+04:30)Kabul: timezone data, old version, 2 gmt time flags, 2 std time flags, no leap seconds, 1 transition time, 2 abbreviation chars
+./usr/share/zoneinfo/(GMT+06:00)Colombo: timezone data, old version, 6 gmt time flags, 6 std time flags, no leap seconds, 6 transition times, 6 abbreviation chars
+./usr/share/zoneinfo/(GMT+10:00)Guam: timezone data, old version, 1 gmt time flag, 1 std time flag, no leap seconds, no transition times, 1 abbreviation char
+./usr/share/zoneinfo/(GMT+09:00)Seoul: timezone data, old version, 5 gmt time flags, 5 std time flags, no leap seconds, 12 transition times, 5 abbreviation chars
+./usr/share/zoneinfo/(GMT+02:00)Athens: timezone data, old version, 9 gmt time flags, 9 std time flags, no leap seconds, 137 transition times, 9 abbreviation chars
+./usr/share/zoneinfo/(GMT+03:30)Tehran: timezone data, old version, 8 gmt time flags, 8 std time flags, no leap seconds, 104 transition times, 8 abbreviation chars
+./usr/share/zoneinfo/(GMT-04:00)Caracas: timezone data, old version, 3 gmt time flags, 3 std time flags, no leap seconds, 2 transition times, 3 abbreviation chars
+./usr/share/zoneinfo/(GMT+07:00)Bangkok: timezone data, old version, 2 gmt time flags, 2 std time flags, no leap seconds, 1 transition time, 2 abbreviation chars
+./usr/share/zoneinfo/(GMT+03:00)Nairobi: timezone data, old version, 12 gmt time flags, 12 std time flags, no leap seconds, 129 transition times, 12 abbreviation chars
+./usr/share/zoneinfo/(GMT+09:00)Yakutsk: timezone data, old version, 8 gmt time flags, 8 std time flags, no leap seconds, 117 transition times, 8 abbreviation chars
+./usr/share/zoneinfo/(GMT+10:00)Brisbane: timezone data, old version, 4 gmt time flags, 4 std time flags, no leap seconds, 16 transition times, 4 abbreviation chars
+./usr/share/zoneinfo/(GMT+02:00)Bucharest: timezone data, old version, 7 gmt time flags, 7 std time flags, no leap seconds, 137 transition times, 7 abbreviation chars
+./usr/share/zoneinfo/(GMT-03:30)Newfoundland: timezone data, old version, 5 gmt time flags, 5 std time flags, no leap seconds, 243 transition times, 5 abbreviation chars
+./usr/share/zoneinfo/(GMT+02:00)Cairo: timezone data, old version, 4 gmt time flags, 4 std time flags, no leap seconds, 174 transition times, 4 abbreviation chars
+./usr/share/zoneinfo/(GMT-11:00)MidwayIsland: timezone data, old version, 3 gmt time flags, 3 std time flags, no leap seconds, 2 transition times, 3 abbreviation chars
+./usr/share/zoneinfo/(GMT+08:00)Shanghai: timezone data, old version, 3 gmt time flags, 3 std time flags, no leap seconds, 69 transition times, 3 abbreviation chars
+./usr/lib: directory
+./usr/lib/f_version: ASCII text
+./usr/lib/fileserv: directory
+./usr/lib/fileserv/mod_indexfile.so: ELF 32-bit LSB shared object, MIPS, MIPS-II version 1 (SYSV), dynamically linked, stripped
+./usr/lib/fileserv/mod_dirlisting.so: ELF 32-bit LSB shared object, MIPS, MIPS-II version 1 (SYSV), dynamically linked, stripped
+./usr/lib/fileserv/mod_alias.so: ELF 32-bit LSB shared object, MIPS, MIPS-II version 1 (SYSV), dynamically linked, stripped
+./usr/lib/fileserv/mod_staticfile.so: ELF 32-bit LSB shared object, MIPS, MIPS-II version 1 (SYSV), dynamically linked, stripped
+./usr/lib/fileserv/mod_proxy.so: ELF 32-bit LSB shared object, MIPS, MIPS-II version 1 (SYSV), dynamically linked, stripped
+./usr/lib/fileserv/mod_webdav.so: ELF 32-bit LSB shared object, MIPS, MIPS-II version 1 (SYSV), dynamically linked, stripped
+./usr/lib/fileserv/mod_auth.so: ELF 32-bit LSB shared object, MIPS, MIPS-II version 1 (SYSV), dynamically linked, stripped
+./usr/lib/fileserv/mod_access.so: ELF 32-bit LSB shared object, MIPS, MIPS-II version 1 (SYSV), dynamically linked, stripped
+./usr/lib/fileserv/mod_cgi.so: ELF 32-bit LSB shared object, MIPS, MIPS-II version 1 (SYSV), dynamically linked, stripped
+./usr/lib/busybox: ELF 32-bit LSB executable, MIPS, MIPS-II version 1 (SYSV), dynamically linked (uses shared libs), stripped
+./usr/lib/ppp: directory
+./usr/lib/ppp/rp-pppoe.so: ELF 32-bit LSB shared object, MIPS, MIPS-I version 1 (SYSV), dynamically linked, stripped
+./usr/codepages: directory
+./usr/sbin: directory
+./usr/sbin/newdd: ELF 32-bit LSB executable, MIPS, MIPS-II version 1 (SYSV), dynamically linked (uses shared libs), stripped
+./usr/sbin/ez-ipupdate: ELF 32-bit LSB executable, MIPS, MIPS-II version 1 (SYSV), dynamically linked (uses shared libs), stripped
+./usr/sbin/udevtrigger: ASCII text, with no line terminators
+./usr/sbin/usbdongle: ELF 32-bit LSB executable, MIPS, MIPS-II version 1 (SYSV), dynamically linked (uses shared libs), stripped
+./usr/sbin/pioctl: ELF 32-bit LSB executable, MIPS, MIPS-II version 1 (SYSV), dynamically linked (uses shared libs), stripped
+./usr/sbin/mkusbevent: ELF 32-bit LSB executable, MIPS, MIPS-II version 1 (SYSV), dynamically linked (uses shared libs), stripped
+./usr/sbin/chroot: ASCII text, with no line terminators
+./usr/sbin/get_broadcast_addr: ELF 32-bit LSB executable, MIPS, MIPS-II version 1 (SYSV), dynamically linked (uses shared libs), stripped
+./usr/sbin/brctl: ASCII text, with no line terminators
+./usr/sbin/disk_clear_gpt_info: ELF 32-bit LSB executable, MIPS, MIPS-II version 1 (SYSV), dynamically linked (uses shared libs), stripped
+./usr/sbin/get_mtd_sn: ELF 32-bit LSB executable, MIPS, MIPS-II version 1 (SYSV), dynamically linked (uses shared libs), stripped
+./usr/sbin/smbpasswd: ELF 32-bit LSB executable, MIPS, MIPS-II version 1 (SYSV), dynamically linked (uses shared libs), stripped
+./usr/sbin/etc_tools: ELF 32-bit LSB executable, MIPS, MIPS-II version 1 (SYSV), dynamically linked (uses shared libs), stripped
+./usr/sbin/update_smb: ELF 32-bit LSB executable, MIPS, MIPS-II version 1 (SYSV), dynamically linked (uses shared libs), stripped
+./usr/sbin/updatedd: ELF 32-bit LSB executable, MIPS, MIPS-II version 1 (SYSV), dynamically linked (uses shared libs), stripped
+./usr/sbin/vstddns: ELF 32-bit LSB executable, MIPS, MIPS-II version 1 (SYSV), dynamically linked (uses shared libs), stripped
+./usr/sbin/fileserv: ELF 32-bit LSB executable, MIPS, MIPS-II version 1 (SYSV), dynamically linked (uses shared libs), stripped
+./usr/sbin/default_ssid_set: ELF 32-bit LSB executable, MIPS, MIPS-II version 1 (SYSV), dynamically linked (uses shared libs), stripped
+./usr/sbin/nasclient: ELF 32-bit LSB executable, MIPS, MIPS-II version 1 (SYSV), dynamically linked (uses shared libs), stripped
+./usr/sbin/umount2: ELF 32-bit LSB executable, MIPS, MIPS-II version 1 (SYSV), dynamically linked (uses shared libs), not stripped
+./usr/sbin/udevadm: ELF 32-bit LSB executable, MIPS, MIPS-II version 1 (SYSV), dynamically linked (uses shared libs), stripped
+./usr/sbin/set_remote_ap: ELF 32-bit LSB executable, MIPS, MIPS-II version 1 (SYSV), dynamically linked (uses shared libs), stripped
+./usr/sbin/opmode_set: ELF 32-bit LSB executable, MIPS, MIPS-II version 1 (SYSV), dynamically linked (uses shared libs), stripped
+./usr/sbin/mkntfs: ELF 32-bit LSB executable, MIPS, MIPS-II version 1 (SYSV), dynamically linked (uses shared libs), stripped
+./usr/sbin/exfatlabel: ELF 32-bit LSB executable, MIPS, MIPS-II version 1 (SYSV), dynamically linked (uses shared libs), stripped
+./usr/sbin/ioos: ELF 32-bit LSB executable, MIPS, MIPS-II version 1 (SYSV), dynamically linked (uses shared libs), stripped
+./usr/sbin/ntp: ELF 32-bit LSB executable, MIPS, MIPS-II version 1 (SYSV), dynamically linked (uses shared libs), stripped
+./usr/sbin/partprobe: ELF 32-bit LSB executable, MIPS, MIPS-II version 1 (SYSV), dynamically linked (uses shared libs), stripped
+./usr/sbin/upnpd: ELF 32-bit LSB executable, MIPS, MIPS-II version 1 (SYSV), dynamically linked (uses shared libs), stripped
+./usr/sbin/iodate: ELF 32-bit LSB executable, MIPS, MIPS-II version 1 (SYSV), dynamically linked (uses shared libs), stripped
+./usr/sbin/au: ELF 32-bit LSB executable, MIPS, MIPS-II version 1 (SYSV), dynamically linked (uses shared libs), stripped
+./usr/sbin/listen_sleep.sh: ELF 32-bit LSB executable, MIPS, MIPS-II version 1 (SYSV), dynamically linked (uses shared libs), stripped
+./usr/sbin/mount.exfat-fuse: ELF 32-bit LSB executable, MIPS, MIPS-II version 1 (SYSV), dynamically linked (uses shared libs), stripped
+./usr/sbin/mkexfatfs: ELF 32-bit LSB executable, MIPS, MIPS-II version 1 (SYSV), dynamically linked (uses shared libs), stripped
+./usr/sbin/passwdzw: ELF 32-bit LSB executable, MIPS, MIPS-II version 1 (SYSV), dynamically linked (uses shared libs), not stripped
+./usr/sbin/portmap: ELF 32-bit LSB executable, MIPS, MIPS-II version 1 (SYSV), dynamically linked (uses shared libs), stripped
+./usr/sbin/set_kernel_zone: ELF 32-bit LSB executable, MIPS, MIPS-II version 1 (SYSV), dynamically linked (uses shared libs), stripped
+./usr/sbin/led_control: ELF 32-bit LSB executable, MIPS, MIPS-II version 1 (SYSV), dynamically linked (uses shared libs), stripped
+./usr/sbin/minidlna: ELF 32-bit LSB executable, MIPS, MIPS-II version 1 (SYSV), dynamically linked (uses shared libs), stripped
+./usr/sbin/inadyn: ELF 32-bit LSB executable, MIPS, MIPS-II version 1 (SYSV), dynamically linked (uses shared libs), stripped
+./usr/sbin/sg_ioctl_disk: ELF 32-bit LSB executable, MIPS, MIPS-II version 1 (SYSV), dynamically linked (uses shared libs), stripped
+./usr/sbin/sendfile: ELF 32-bit LSB executable, MIPS, MIPS-II version 1 (SYSV), dynamically linked (uses shared libs), stripped
+./usr/sbin/pppoe_client: ELF 32-bit LSB executable, MIPS, MIPS-II version 1 (SYSV), dynamically linked (uses shared libs), stripped
+./usr/sbin/rtconfig.bin: data
+./usr/sbin/smbd: ELF 32-bit LSB executable, MIPS, MIPS-II version 1 (SYSV), dynamically linked (uses shared libs), stripped
+./usr/sbin/get_mtd_param: ELF 32-bit LSB executable, MIPS, MIPS-II version 1 (SYSV), dynamically linked (uses shared libs), stripped
+./usr/sbin/dumpexfat: ELF 32-bit LSB executable, MIPS, MIPS-II version 1 (SYSV), dynamically linked (uses shared libs), stripped
+./usr/sbin/tst_nameserver: ELF 32-bit LSB executable, MIPS, MIPS-II version 1 (SYSV), dynamically linked (uses shared libs), stripped
+./usr/sbin/get_wlan_mac: ELF 32-bit LSB executable, MIPS, MIPS-II version 1 (SYSV), dynamically linked (uses shared libs), stripped
+./usr/sbin/nmbd: ELF 32-bit LSB executable, MIPS, MIPS-II version 1 (SYSV), dynamically linked (uses shared libs), stripped
+./usr/sbin/udevd: ELF 32-bit LSB executable, MIPS, MIPS-II version 1 (SYSV), dynamically linked (uses shared libs), stripped
+./usr/sbin/dhcprelay: ASCII text, with no line terminators
+./usr/sbin/exfatfsck: ELF 32-bit LSB executable, MIPS, MIPS-II version 1 (SYSV), dynamically linked (uses shared libs), stripped
+./usr/sbin/telnetd: ASCII text, with no line terminators
+./usr/sbin/diskck: ELF 32-bit LSB executable, MIPS, MIPS-II version 1 (SYSV), dynamically linked (uses shared libs), stripped
+./usr/sbin/udhcpd: ASCII text, with no line terminators
+./usr/bin: directory
+./usr/bin/killall: ASCII text, with no line terminators
+./usr/bin/[: ASCII text, with no line terminators
+./usr/bin/md5sum: ASCII text, with no line terminators
+./usr/bin/wget: ASCII text, with no line terminators
+./usr/bin/killall5: ASCII text, with no line terminators
+./usr/bin/awk: ASCII text, with no line terminators
+./usr/bin/head: ASCII text, with no line terminators
+./usr/bin/id: ASCII text, with no line terminators
+./usr/bin/pgrep: ASCII text, with no line terminators
+./usr/bin/hostid: ASCII text, with no line terminators
+./usr/bin/cmp: ASCII text, with no line terminators
+./usr/bin/mkfifo: ASCII text, with no line terminators
+./usr/bin/top: ASCII text, with no line terminators
+./usr/bin/wc: ASCII text, with no line terminators
+./usr/bin/clear: ASCII text, with no line terminators
+./usr/bin/sum: ASCII text, with no line terminators
+./usr/bin/reset: ASCII text, with no line terminators
+./usr/bin/logger: ASCII text, with no line terminators
+./usr/bin/who: ASCII text, with no line terminators
+./usr/bin/[[: ASCII text, with no line terminators
+./usr/bin/tail: ASCII text, with no line terminators
+./usr/bin/cksum: ASCII text, with no line terminators
+./usr/bin/find: ASCII text, with no line terminators
+./usr/bin/uniq: ASCII text, with no line terminators
+./usr/bin/basename: ASCII text, with no line terminators
+./usr/bin/uptime: ASCII text, with no line terminators
+./usr/bin/renice: ASCII text, with no line terminators
+./usr/bin/dirname: ASCII text, with no line terminators
+./usr/bin/expr: ASCII text, with no line terminators
+./usr/bin/comm: ASCII text, with no line terminators
+./usr/bin/dumpleases: ASCII text, with no line terminators
+./usr/bin/passwd: ASCII text, with no line terminators
+./usr/bin/readlink: ASCII text, with no line terminators
+./usr/bin/free: ASCII text, with no line terminators
+./usr/bin/printf: ASCII text, with no line terminators
+./usr/bin/env: ASCII text, with no line terminators
+./usr/bin/du: ASCII text, with no line terminators
+./usr/bin/time: ASCII text, with no line terminators
+./usr/bin/test: ASCII text, with no line terminators
+./usr/bin/xargs: ASCII text, with no line terminators
+./usr/bin/realpath: ASCII text, with no line terminators
+./usr/bin/cut: ASCII text, with no line terminators
+./dev: directory
+./dev/random: ASCII text, with no line terminators
+./dev/mapper: directory
+./dev/mapper/control: empty
+./dev/fuse: empty
+./dev/urandom: empty
+./dev/console: empty
+./dev/ttyS0: empty
+./dev/tty0: empty
+./dev/vs_led: empty
+./dev/nvram: empty
+./dev/rtc: empty
+./dev/null: empty
+./dev/zero: empty
+./dev/pts: directory
+./dev/pts/0: empty
+./dev/pts/2: empty
+./dev/pts/1: empty
+./dev/ptmx: empty
+./dev/shm: directory
+./sbin: directory
+./sbin/halt: ASCII text, with no line terminators
+./sbin/rmmod: ASCII text, with no line terminators
+./sbin/config-vlan.sh: POSIX shell script, ASCII text executable
+./sbin/config-igmpproxy.sh: POSIX shell script, ASCII text executable
+./sbin/nat.sh: POSIX shell script, ASCII text executable
+./sbin/mkswap: ASCII text, with no line terminators
+./sbin/shutdown: POSIX shell script, ASCII text executable
+./sbin/route: ASCII text, with no line terminators
+./sbin/wan.sh: POSIX shell script, ASCII text executable
+./sbin/hwclock: ASCII text, with no line terminators
+./sbin/init: ELF 32-bit LSB executable, MIPS, MIPS-II version 1 (SYSV), dynamically linked (uses shared libs), stripped
+./sbin/reboot: ASCII text, with no line terminators
+./sbin/udhcpc.sh: POSIX shell script, ASCII text executable
+./sbin/swapon: ASCII text, with no line terminators
+./sbin/tg_custom_conf.sh: ASCII text
+./sbin/lsmod: ASCII text, with no line terminators
+./sbin/getty: ASCII text, with no line terminators
+./sbin/netinit.sh: POSIX shell script, ASCII text executable
+./sbin/config-pppoe.sh: POSIX shell script, ASCII text executable
+./sbin/ntpdate: ELF 32-bit LSB executable, MIPS, MIPS-II version 1 (SYSV), dynamically linked (uses shared libs), stripped
+./sbin/config-udhcpd.sh: POSIX shell script, ASCII text executable
+./sbin/udhcpc: ASCII text, with no line terminators
+./sbin/led.sh: POSIX shell script, ASCII text executable
+./sbin/aplist_creat.sh: POSIX shell script, ASCII text executable
+./sbin/parted: ELF 32-bit LSB executable, MIPS, MIPS-II version 1 (SYSV), dynamically linked (uses shared libs), stripped
+./sbin/modprobe: ASCII text, with no line terminators
+./sbin/poweroff: ASCII text, with no line terminators
+./sbin/pppoe.sh: POSIX shell script, ASCII text executable
+./sbin/syslogd: ASCII text, with no line terminators
+./sbin/config.sh: ASCII text
+./sbin/hdparm: ELF 32-bit LSB executable, MIPS, MIPS-II version 1 (SYSV), dynamically linked (uses shared libs), stripped
+./sbin/global.sh: POSIX shell script, ASCII text executable
+./sbin/sysctl: ASCII text, with no line terminators
+./sbin/depmod: ASCII text, with no line terminators
+./sbin/vconfig: ASCII text, with no line terminators
+./sbin/set_timezone.sh: POSIX shell script, ASCII text executable
+./sbin/config-dns.sh: POSIX shell script, ASCII text executable
+./sbin/config-powersave.sh: POSIX shell script, ASCII text executable
+./sbin/klogd: ASCII text, with no line terminators
+./sbin/insmod: ASCII text, with no line terminators
+./sbin/lan.sh: POSIX shell script, ASCII text executable
+./sbin/watchdog: ASCII text, with no line terminators
+./sbin/swapoff: ASCII text, with no line terminators
+./sbin/logread: ASCII text, with no line terminators
+./sbin/EnterRouterMode.sh: POSIX shell script, ASCII text executable
+./sbin/ifconfig: ASCII text, with no line terminators
+./bin: directory
+./bin/ls: ASCII text, with no line terminators
+./bin/ping: ASCII text, with no line terminators
+./bin/ps: ELF 32-bit LSB executable, MIPS, MIPS-II version 1 (SYSV), dynamically linked (uses shared libs), stripped
+./bin/mii_mgr: ELF 32-bit LSB executable, MIPS, MIPS-II version 1 (SYSV), dynamically linked (uses shared libs), stripped
+./bin/mkdir: ASCII text, with no line terminators
+./bin/usleep: ASCII text, with no line terminators
+./bin/ip: ASCII text, with no line terminators
+./bin/iwpriv: ELF 32-bit LSB executable, MIPS, MIPS-II version 1 (SYSV), dynamically linked (uses shared libs), stripped
+./bin/date: ASCII text, with no line terminators
+./bin/sh-new: ASCII text
+./bin/kill: ASCII text, with no line terminators
+./bin/igmpproxy.sh: POSIX shell script, ASCII text executable
+./bin/pppd: ELF 32-bit LSB executable, MIPS, MIPS-II version 1 (SYSV), dynamically linked (uses shared libs), stripped
+./bin/mknod: ASCII text, with no line terminators
+./bin/gzip: ASCII text, with no line terminators
+./bin/dd: ASCII text, with no line terminators
+./bin/nice: ASCII text, with no line terminators
+./bin/gpio: ELF 32-bit LSB executable, MIPS, MIPS-II version 1 (SYSV), dynamically linked (uses shared libs), stripped
+./bin/mount: ASCII text, with no line terminators
+./bin/cp: ASCII text, with no line terminators
+./bin/iwconfig: ELF 32-bit LSB executable, MIPS, MIPS-II version 1 (SYSV), dynamically linked (uses shared libs), stripped
+./bin/printenv: ASCII text, with no line terminators
+./bin/touch: ASCII text, with no line terminators
+./bin/gunzip: ASCII text, with no line terminators
+./bin/pwd: ASCII text, with no line terminators
+./bin/stat: ASCII text, with no line terminators
+./bin/ipaddr: ASCII text, with no line terminators
+./bin/grep: ASCII text, with no line terminators
+./bin/iprule: ASCII text, with no line terminators
+./bin/reg: ELF 32-bit LSB executable, MIPS, MIPS-II version 1 (SYSV), dynamically linked (uses shared libs), stripped
+./bin/sync: ASCII text, with no line terminators
+./bin/echo: ASCII text, with no line terminators
+./bin/uname: ASCII text, with no line terminators
+./bin/iproute: ASCII text, with no line terminators
+./bin/netstat: ASCII text, with no line terminators
+./bin/chat: ELF 32-bit LSB executable, MIPS, MIPS-II version 1 (SYSV), dynamically linked (uses shared libs), stripped
+./bin/ln: ASCII text, with no line terminators
+./bin/lld2d: ELF 32-bit LSB executable, MIPS, MIPS32 version 1 (SYSV), dynamically linked (uses shared libs), stripped
+./bin/login: ASCII text, with no line terminators
+./bin/iptunnel: ASCII text, with no line terminators
+./bin/vi: ASCII text, with no line terminators
+./bin/fgrep: ASCII text, with no line terminators
+./bin/more: ASCII text, with no line terminators
+./bin/pppoecd: ELF 32-bit LSB executable, MIPS, MIPS-II version 1 (SYSV), dynamically linked (uses shared libs), stripped
+./bin/busybox: ELF 32-bit LSB executable, MIPS, MIPS-II version 1 (SYSV), dynamically linked (uses shared libs), stripped
+./bin/tar: ASCII text, with no line terminators
+./bin/rmdir: ASCII text, with no line terminators
+./bin/iptables: ELF 32-bit LSB executable, MIPS, MIPS-II version 1 (SYSV), dynamically linked (uses shared libs), stripped
+./bin/egrep: ASCII text, with no line terminators
+./bin/chown: ASCII text, with no line terminators
+./bin/pidof: ASCII text, with no line terminators
+./bin/stty: ASCII text, with no line terminators
+./bin/igmpproxy: ELF 32-bit LSB executable, MIPS, MIPS-II version 1 (SYSV), dynamically linked (uses shared libs), stripped
+./bin/ed: ASCII text, with no line terminators
+./bin/ping6: ASCII text, with no line terminators
+./bin/cat: ASCII text, with no line terminators
+./bin/umount: ASCII text, with no line terminators
+./bin/dmesg: ASCII text, with no line terminators
+./bin/mv: ASCII text, with no line terminators
+./bin/mtd_write: ELF 32-bit LSB executable, MIPS, MIPS-II version 1 (SYSV), dynamically linked (uses shared libs), stripped
+./bin/nvram_set: ASCII text, with no line terminators
+./bin/ntpclient: ELF 32-bit LSB executable, MIPS, MIPS-II version 1 (SYSV), dynamically linked (uses shared libs), stripped
+./bin/sleep: ASCII text, with no line terminators
+./bin/zcat: ASCII text, with no line terminators
+./bin/nvram_daemon: ELF 32-bit LSB executable, MIPS, MIPS-II version 1 (SYSV), dynamically linked (uses shared libs), stripped
+./bin/df: ASCII text, with no line terminators
+./bin/sh: ASCII text, with no line terminators
+./bin/inadyn: ELF 32-bit LSB executable, MIPS, MIPS-II version 1 (SYSV), dynamically linked (uses shared libs), stripped
+./bin/sed: ASCII text, with no line terminators
+./bin/nvram_get: ASCII text, with no line terminators
+./bin/ralink_init: ELF 32-bit LSB executable, MIPS, MIPS-II version 1 (SYSV), dynamically linked (uses shared libs), stripped
+./bin/chmod: ASCII text, with no line terminators
+./bin/hostname: ASCII text, with no line terminators
+./bin/iplink: ASCII text, with no line terminators
+./bin/ated: ELF 32-bit LSB executable, MIPS, MIPS-II version 1 (SYSV), dynamically linked (uses shared libs), stripped
+./bin/rm: ASCII text, with no line terminators
+./bin/chgrp: ASCII text, with no line terminators
+./bin/ash: ASCII text, with no line terminators
+./bin/switch: ELF 32-bit LSB executable, MIPS, MIPS-II version 1 (SYSV), dynamically linked (uses shared libs), stripped
+
+Comment:
+/usr/sbin/ioos seems to be used for protocol.csp-requests (AJAX, web manager)
+A simple string revealed "support@iovst.com" so I think iovst developed this binary.

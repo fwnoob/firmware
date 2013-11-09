@@ -1,0 +1,266 @@
+Source	initrdup (gz-version)
+
+File	initrdup (ungz-version)
+MD5	11c674b01ea33b70c374e2b2563c4555	
+SHA256	13fc77c0771915b1457a4c1534190a247c1ea8d9b2a020b6ef332221b23bb289
+
+IMAL   	HEX       	DESCRIPTION
+-------------------------------------------------------------------------------------------------------------------
+0         	0x0       	Linux EXT filesystem, rev 1.0 ext2 filesystem data, UUID=48ee846c-1fa2-4ad2-a3d0-692446b646b6
+2114560   	0x204400  	uImage header, header size: 64 bytes, header CRC: 0x6A7044ED, created: Thu Apr 25 03:35:52 2013, image size: 1439867 bytes, Data Address: 0x80000000, Entry Point: 0x8043F000, data CRC: 0x652C3C28, OS: Linux, CPU: MIPS, image type: OS Kernel Image, compression type: lzma, image name: "Linux Kernel Image"
+2114624   	0x204440  	LZMA compressed data, properties: 0x5D, dictionary size: 33554432 bytes, uncompressed size: 4599927 bytes
+3562496   	0x365C00  	uImage header, header size: 64 bytes, header CRC: 0xAF04CAC4, created: Thu Apr 25 03:25:22 2013, image size: 127892 bytes, Data Address: 0x80200000, Entry Point: 0x80200000, data CRC: 0x3AD2F955, OS: Linux, CPU: MIPS, image type: Standalone Program, compression type: none, image name: "SPI Flash Image"
+3668048   	0x37F850  	U-Boot boot loader reference
+3688387   	0x3847C3  	LZMA compressed data, properties: 0x40, dictionary size: 65536 bytes, uncompressed size: 64 bytes
+3688411   	0x3847DB  	LZMA compressed data, properties: 0x40, dictionary size: 65536 bytes, uncompressed size: 128 bytes
+3688435   	0x3847F3  	LZMA compressed data, properties: 0x41, dictionary size: 65536 bytes, uncompressed size: 128 bytes
+3692544   	0x385800  	Squashfs filesystem, little endian, non-standard signature,  version 3.0, size: 5167458 bytes,  926 inodes, blocksize: 65536 bytes, created: Mon Jul  1 09:44:02 2013 
+8881263   	0x87846F  	LZMA compressed data, properties: 0x5D, dictionary size: 8388608 bytes, uncompressed size: 64927 bytes
+8919124   	0x881854  	LZMA compressed data, properties: 0x5D, dictionary size: 8388608 bytes, uncompressed size: 59759 bytes
+8926955   	0x8836EB  	LZMA compressed data, properties: 0x5D, dictionary size: 8388608 bytes, uncompressed size: 64146 bytes
+8938330   	0x88635A  	LZMA compressed data, properties: 0x5D, dictionary size: 8388608 bytes, uncompressed size: 63898 bytes
+8999049   	0x895089  	LZMA compressed data, properties: 0x5D, dictionary size: 8388608 bytes, uncompressed size: 53876 bytes
+9076205   	0x8A7DED  	LZMA compressed data, properties: 0x5D, dictionary size: 8388608 bytes, uncompressed size: 65073 bytes
+9137634   	0x8B6DE2  	LZMA compressed data, properties: 0x5D, dictionary size: 8388608 bytes, uncompressed size: 45538 bytes
+9148255   	0x8B975F  	LZMA compressed data, properties: 0x5D, dictionary size: 8388608 bytes, uncompressed size: 63913 bytes
+9163316   	0x8BD234  	LZMA compressed data, properties: 0x5D, dictionary size: 8388608 bytes, uncompressed size: 27705 bytes
+9176037   	0x8C03E5  	LZMA compressed data, properties: 0x5D, dictionary size: 8388608 bytes, uncompressed size: 57375 bytes
+9187464   	0x8C3088  	LZMA compressed data, properties: 0x5D, dictionary size: 8388608 bytes, uncompressed size: 48009 bytes
+9194986   	0x8C4DEA  	LZMA compressed data, properties: 0x5D, dictionary size: 8388608 bytes, uncompressed size: 8192 bytes
+9197016   	0x8C55D8  	LZMA compressed data, properties: 0x5D, dictionary size: 8388608 bytes, uncompressed size: 8192 bytes
+9199187   	0x8C5E53  	LZMA compressed data, properties: 0x5D, dictionary size: 8388608 bytes, uncompressed size: 8192 bytes
+9200769   	0x8C6481  	LZMA compressed data, properties: 0x5D, dictionary size: 8388608 bytes, uncompressed size: 5055 bytes
+9201958   	0x8C6926  	LZMA compressed data, properties: 0x5D, dictionary size: 8388608 bytes, uncompressed size: 8192 bytes
+9206938   	0x8C7C9A  	LZMA compressed data, properties: 0x5D, dictionary size: 8388608 bytes, uncompressed size: 6161 bytes
+9210053   	0x8C88C5  	LZMA compressed data, properties: 0x5D, dictionary size: 8388608 bytes, uncompressed size: 1232 bytes
+9210504   	0x8C8A88  	LZMA compressed data, properties: 0x5D, dictionary size: 8388608 bytes, uncompressed size: 7408 bytes
+10487808  	0xA00800  	ELF 32-bit LSB MIPS-II executable, MIPS, version 1 (SYSV)
+10554368  	0xA10C00  	ELF 32-bit LSB MIPS-II executable, MIPS, version 1 (SYSV)
+10613784  	0xA1F418  	Linux kernel version "%d.%d.%d%d.%d, gcc %d.%d"
+10646604  	0xA2744C  	LZMA compressed data, properties: 0x87, dictionary size: 16777216 bytes, uncompressed size: 50331648 bytes
+10647552  	0xA27800  	ELF 32-bit LSB MIPS-II executable, MIPS, version 1 (SYSV)
+10651691  	0xA2882B  	mcrypt 2.2 encrypted data, algorithm: blowfish-448, mode: CBC, keymode: 8bit
+11112997  	0xA99225  	LZMA compressed data, properties: 0x90, dictionary size: 2097152 bytes, uncompressed size: 36770 bytes
+11176923  	0xAA8BDB  	Copyright string: " (C) 1998-2008 Erik Andersen, Rob Landley, Denys Vlasenkoob Landley, Denys Vlasenko"
+11203531  	0xAAF3CB  	POSIX tar archive (GNU)
+11204471  	0xAAF777  	POSIX tar archive
+11223629  	0xAB424D  	LZMA compressed data, properties: 0x40, dictionary size: 65536 bytes, uncompressed size: 134283263 bytes
+11223908  	0xAB4364  	CramFS filesystem, little endian size 4749940 version #2 hole_support CRC 0x62656572, edition 4749968, 0 blocks, 4722372 files  
+
+
+Content of ext2-image:
+.: directory
+./etc: directory
+./etc/initsh: POSIX shell script, ASCII text executable
+./config: directory
+./config/vstfunc: POSIX shell script, ASCII text executable
+./config/custom: directory
+./config/custom/custom.sh: POSIX shell script, ASCII text executable
+./bin: directory
+./bin/gzip: symbolic link to `busybox'
+./bin/cp: symbolic link to `busybox'
+./bin/hostname: symbolic link to `busybox'
+./bin/kill: symbolic link to `busybox'
+./bin/iptunnel: symbolic link to `busybox'
+./bin/stat: symbolic link to `busybox'
+./bin/uname: symbolic link to `busybox'
+./bin/nice: symbolic link to `busybox'
+./bin/up_resume: ELF 32-bit LSB executable, MIPS, MIPS-II version 1 (SYSV), dynamically linked (uses shared libs), stripped
+./bin/login: symbolic link to `busybox'
+./bin/rm: symbolic link to `busybox'
+./bin/ln: symbolic link to `busybox'
+./bin/fgrep: symbolic link to `busybox'
+./bin/touch: symbolic link to `busybox'
+./bin/mv: symbolic link to `busybox'
+./bin/ping6: symbolic link to `busybox'
+./bin/igmpproxy.sh: POSIX shell script, ASCII text executable
+./bin/ps: ELF 32-bit LSB executable, MIPS, MIPS-II version 1 (SYSV), dynamically linked (uses shared libs), stripped
+./bin/iplink: symbolic link to `busybox'
+./bin/ipaddr: symbolic link to `busybox'
+./bin/busybox: ELF 32-bit LSB executable, MIPS, MIPS-II version 1 (SYSV), dynamically linked (uses shared libs), stripped
+./bin/up_update: ELF 32-bit LSB executable, MIPS, MIPS-II version 1 (SYSV), dynamically linked (uses shared libs), stripped
+./bin/reboot: symbolic link to `busybox'
+./bin/ip: symbolic link to `busybox'
+./bin/mkdir: symbolic link to `busybox'
+./bin/more: symbolic link to `busybox'
+./bin/up_backup: ELF 32-bit LSB executable, MIPS, MIPS-II version 1 (SYSV), dynamically linked (uses shared libs), stripped
+./bin/ated: ELF 32-bit LSB executable, MIPS, MIPS-II version 1 (SYSV), dynamically linked (uses shared libs), stripped
+./bin/chmod: symbolic link to `busybox'
+./bin/tar: symbolic link to `busybox'
+./bin/chown: symbolic link to `busybox'
+./bin/pidof: symbolic link to `busybox'
+./bin/vi: symbolic link to `busybox'
+./bin/rmdir: symbolic link to `busybox'
+./bin/ping: symbolic link to `busybox'
+./bin/printenv: symbolic link to `busybox'
+./bin/flash_eraseall: ELF 32-bit LSB executable, MIPS, MIPS-II version 1 (SYSV), dynamically linked (uses shared libs), not stripped
+./bin/pwd: symbolic link to `busybox'
+./bin/usleep: symbolic link to `busybox'
+./bin/iprule: symbolic link to `busybox'
+./bin/dmesg: symbolic link to `busybox'
+./bin/df: symbolic link to `busybox'
+./bin/sh: symbolic link to `busybox'
+./bin/reg: ELF 32-bit LSB executable, MIPS, MIPS-II version 1 (SYSV), dynamically linked (uses shared libs), stripped
+./bin/ed: symbolic link to `busybox'
+./bin/igmpproxy: ELF 32-bit LSB executable, MIPS, MIPS-II version 1 (SYSV), dynamically linked (uses shared libs), stripped
+./bin/sleep: symbolic link to `busybox'
+./bin/chgrp: symbolic link to `busybox'
+./bin/cat: symbolic link to `busybox'
+./bin/gpio: ELF 32-bit LSB executable, MIPS, MIPS-II version 1 (SYSV), dynamically linked (uses shared libs), stripped
+./bin/zcat: symbolic link to `busybox'
+./bin/date: symbolic link to `busybox'
+./bin/egrep: symbolic link to `busybox'
+./bin/umount: symbolic link to `busybox'
+./bin/dd: symbolic link to `busybox'
+./bin/mknod: symbolic link to `busybox'
+./bin/sync: symbolic link to `busybox'
+./bin/mount: symbolic link to `busybox'
+./bin/stty: symbolic link to `busybox'
+./bin/inadyn: ELF 32-bit LSB executable, MIPS, MIPS-II version 1 (SYSV), dynamically linked (uses shared libs), stripped
+./bin/cpmtd: ELF 32-bit LSB executable, MIPS, MIPS-II version 1 (SYSV), dynamically linked (uses shared libs), stripped
+./bin/gunzip: symbolic link to `busybox'
+./bin/grep: symbolic link to `busybox'
+./bin/mtd_write: ELF 32-bit LSB executable, MIPS, MIPS-II version 1 (SYSV), dynamically linked (uses shared libs), stripped
+./bin/netstat: symbolic link to `busybox'
+./bin/echo: symbolic link to `busybox'
+./bin/ash: symbolic link to `busybox'
+./bin/ls: symbolic link to `busybox'
+./bin/iproute: symbolic link to `busybox'
+./bin/sed: symbolic link to `busybox'
+./bin/lld2d: ELF 32-bit LSB executable, MIPS, MIPS32 version 1 (SYSV), dynamically linked (uses shared libs), stripped
+./bin/mii_mgr: ELF 32-bit LSB executable, MIPS, MIPS-II version 1 (SYSV), dynamically linked (uses shared libs), stripped
+./mnt: directory
+./mnt/mtd: directory
+./sys: directory
+./firmware: directory
+./firmware/kernel: u-boot legacy uImage, Linux Kernel Image, Linux/MIPS, OS Kernel Image (lzma), 1439867 bytes, Thu Apr 25 03:35:52 2013, Load Address: 0x80000000, Entry Point: 0x8043F000, Header CRC: 0x6A7044ED, Data CRC: 0x652C3C28
+./firmware/firmware.conf: ASCII text
+./firmware/bootloader: u-boot legacy uImage, SPI Flash Image, Linux/MIPS, Standalone Program (Not compressed), 127892 bytes, Thu Apr 25 03:25:22 2013, Load Address: 0x80200000, Entry Point: 0x80200000, Header CRC: 0xAF04CAC4, Data CRC: 0x3AD2F955
+./firmware/rootfs: data
+./boot: directory
+./boot/tmp: directory
+./proc: directory
+./dev: directory
+./dev/ram7: block special
+./dev/mtd6: character special
+./dev/mtdblock2: block special
+./dev/mtdblock5: block special
+./dev/mtd7: character special
+./dev/mtd5: character special
+./dev/ttyS0: character special
+./dev/ptmx: character special
+./dev/mtdblock1: block special
+./dev/tty0: character special
+./dev/mtdblock6: block special
+./dev/mtdblock4: block special
+./dev/pts: directory
+./dev/pts/2: character special
+./dev/pts/1: character special
+./dev/pts/0: character special
+./dev/ram1: block special
+./dev/mtd4: character special
+./dev/mtd2: character special
+./dev/vs_led: character special
+./dev/mtdblock8: block special
+./dev/ramdisk: symbolic link to `ram0'
+./dev/ram: symbolic link to `ram1'
+./dev/shm: directory
+./dev/ram5: block special
+./dev/mtd1: character special
+./dev/fuse: character special
+./dev/ram2: block special
+./dev/mtd0: character special
+./dev/tty: character special
+./dev/ram3: block special
+./dev/zero: character special
+./dev/ttyS1: character special
+./dev/mtd8: character special
+./dev/rtc: character special
+./dev/loop0: block special
+./dev/console: character special
+./dev/ram0: block special
+./dev/mtdblock7: block special
+./dev/ram8: block special
+./dev/mapper: directory
+./dev/mapper/control: character special
+./dev/mtdblock3: block special
+./dev/null: character special
+./dev/ram4: block special
+./dev/mtdblock0: block special
+./dev/ram6: block special
+./dev/mtd3: character special
+./dev/urandom: character special
+./dev/loop1: block special
+./dev/random: symbolic link to `urandom'
+./update.sh: POSIX shell script, ASCII text executable
+./var: directory
+./var/log: directory
+./var/run: directory
+./var/tmp: directory
+./lib: directory
+./lib/libdl.so.0: symbolic link to `libdl-0.9.28.so'
+./lib/CP437.so: ELF 32-bit LSB shared object, MIPS, MIPS-II version 1 (SYSV), dynamically linked, stripped
+./lib/libcrypt.so.0: symbolic link to `libcrypt-0.9.28.so'
+./lib/libuuid.so: symbolic link to `libuuid.so.1.2'
+./lib/libuuid.so.1.2: ELF 32-bit LSB shared object, MIPS, MIPS-II version 1 (SYSV), dynamically linked, stripped
+./lib/libacl.so: symbolic link to `libacl.so.1'
+./lib/libacl.so.1.1.0: ELF 32-bit LSB shared object, MIPS, MIPS-II version 1 (SYSV), dynamically linked, stripped
+./lib/udev: directory
+./lib/udev/rules.d: directory
+./lib/udev/rules.d/60-persistent-input.rules: ASCII text
+./lib/udev/rules.d/60-persistent-storage.rules: ASCII text
+./lib/udev/rules.d/50-head.rules: ASCII text
+./lib/udev/rules.d/60-persistent-storage-tape.rules: ASCII text
+./lib/udev/rules.d/60-persistent-v4l.rules: ASCII text
+./lib/udev/rules.d/80-drivers.rules: ASCII text
+./lib/udev/rules.d/95-udev-late.rules: ASCII text
+./lib/libpcre.so: symbolic link to `libpcre.so.0.0.1'
+./lib/libdl.so: symbolic link to `libdl-0.9.28.so'
+./lib/libpthread.so.0: symbolic link to `libpthread-0.9.28.so'
+./lib/libiw.so.29: ELF 32-bit LSB shared object, MIPS, MIPS-II version 1 (SYSV), dynamically linked, stripped
+./lib/libuuid.so.1: symbolic link to `libuuid.so.1.2'
+./lib/ipsec: directory
+./lib/modules: directory
+./lib/modules/2.6.21: directory
+./lib/modules/2.6.21/kernel: directory
+./lib/modules/2.6.21/kernel/drivers: directory
+./lib/modules/2.6.21/kernel/drivers/char: directory
+./lib/modules/2.6.21/kernel/drivers/char/hw_random: directory
+./lib/modules/2.6.21/kernel/drivers/char/hw_random/rng-core.ko: ELF 32-bit LSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/libproc-3.2.7.so: ELF 32-bit LSB shared object, MIPS, MIPS-II version 1 (SYSV), dynamically linked, stripped
+./lib/libnvram-0.9.28.so: ELF 32-bit LSB shared object, MIPS, MIPS-I version 1 (SYSV), dynamically linked (uses shared libs), stripped
+./lib/libnvram.so.0: symbolic link to `libnvram-0.9.28.so'
+./lib/libresolv.so: symbolic link to `libresolv-0.9.28.so'
+./lib/libattr.so.1: symbolic link to `libattr.so.1.1.0'
+./lib/libc.so.0: symbolic link to `libuClibc-0.9.28.so'
+./lib/libpthread.so: symbolic link to `libpthread-0.9.28.so'
+./lib/libattr.so.1.1.0: ELF 32-bit LSB shared object, MIPS, MIPS-II version 1 (SYSV), dynamically linked, stripped
+./lib/libm.so.0: symbolic link to `libm-0.9.28.so'
+./lib/libutil.so.0: symbolic link to `libutil-0.9.28.so'
+./lib/libnvram.so: symbolic link to `libnvram-0.9.28.so'
+./lib/libacl.so.1: symbolic link to `libacl.so.1.1.0'
+./lib/libcrypt-0.9.28.so: ELF 32-bit LSB shared object, MIPS, MIPS-I version 1 (SYSV), dynamically linked (uses shared libs), stripped
+./lib/libnsl.so: symbolic link to `libnsl-0.9.28.so'
+./lib/libpthread-0.9.28.so: ELF 32-bit LSB shared object, MIPS, MIPS-I version 1 (SYSV), dynamically linked (uses shared libs), stripped
+./lib/libdl-0.9.28.so: ELF 32-bit LSB shared object, MIPS, MIPS-I version 1 (SYSV), dynamically linked (uses shared libs), stripped
+./lib/libutil-0.9.28.so: ELF 32-bit LSB shared object, MIPS, MIPS-I version 1 (SYSV), dynamically linked (uses shared libs), stripped
+./lib/ld-uClibc.so.0: symbolic link to `ld-uClibc-0.9.28.so'
+./lib/libm-0.9.28.so: ELF 32-bit LSB shared object, MIPS, MIPS-I version 1 (SYSV), dynamically linked (uses shared libs), stripped
+./lib/CP850.so: ELF 32-bit LSB shared object, MIPS, MIPS-II version 1 (SYSV), dynamically linked, stripped
+./lib/libpcre.so.0: symbolic link to `libpcre.so.0.0.1'
+./lib/libm.so: symbolic link to `libm-0.9.28.so'
+./lib/libresolv.so.0: symbolic link to `libresolv-0.9.28.so'
+./lib/libiconv.so: symbolic link to `libiconv.so.2.5.0'
+./lib/libresolv-0.9.28.so: ELF 32-bit LSB shared object, MIPS, MIPS-I version 1 (SYSV), dynamically linked (uses shared libs), stripped
+./lib/libcrypt.so: symbolic link to `libcrypt-0.9.28.so'
+./lib/libnsl.so.0: symbolic link to `libnsl-0.9.28.so'
+./lib/libc.so: symbolic link to `libuClibc-0.9.28.so'
+./lib/libpcre.so.0.0.1: ELF 32-bit LSB shared object, MIPS, MIPS-II version 1 (SYSV), dynamically linked, stripped
+./lib/ld-uClibc-0.9.28.so: ELF 32-bit LSB shared object, MIPS, MIPS-I version 1 (SYSV), dynamically linked, stripped
+./lib/libiconv.so.2.5.0: ELF 32-bit LSB shared object, MIPS, MIPS-II version 1 (SYSV), dynamically linked, stripped
+./lib/libattr.so: symbolic link to `libattr.so.1'
+./lib/libnsl-0.9.28.so: ELF 32-bit LSB shared object, MIPS, MIPS-I version 1 (SYSV), dynamically linked (uses shared libs), stripped
+./lib/libutil.so: symbolic link to `libutil-0.9.28.so'
+./lib/libiconv.so.2: symbolic link to `libiconv.so.2.5.0'
+./lib/libthreadutil.so.1.3.1: ELF 32-bit LSB shared object, MIPS, MIPS-I version 1 (SYSV), dynamically linked (uses shared libs), stripped
+./lib/libuClibc-0.9.28.so: ELF 32-bit LSB shared object, MIPS, MIPS-I version 1 (SYSV), dynamically linked (uses shared libs), stripped
